@@ -10,7 +10,7 @@ import model
 # Set logger
 log = logging.getLogger()
 log.setLevel('INFO')
-handler = logging.FileHandler('investments.log')
+handler = logging.FileHandler('flights.log')
 handler.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s"))
 log.addHandler(handler)
 
@@ -22,11 +22,7 @@ REPLICATION_FACTOR = os.getenv('CASSANDRA_REPLICATION_FACTOR', '1')
 
 def print_menu():
     mm_options = {
-        1: "Show accounts",
-        2: "Show positions",
-        3: "Show trade history",
-        4: "Change username",
-        5: "Exit",
+
     }
     for key in mm_options.keys():
         print(key, '--', mm_options[key])
@@ -34,10 +30,14 @@ def print_menu():
 
 def print_trade_history_menu():
     thm_options = {
-        1: "All",
-        2: "Date Range",
-        3: "Transaction Type (Buy/Sell)",
-        4: "Instrument Symbol",
+        1: 'show all passangers older than 18 years old',
+        2: 'show all passangers which flight reason is "Business/Work"',
+        3: 'show all passangers which flight reason is "On vacation/Pleasure"',
+        4: 'show all airports which transits are "Car rental"',
+        5: 'show all airports which wait is greater than 1 hour',
+        6: 'show all airports which have more reason "Business/Work"',
+        7: 'exit'
+
     }
     for key in thm_options.keys():
         print('    ', key, '--', thm_options[key])
@@ -70,15 +70,18 @@ def main():
         print_menu()
         option = int(input('Enter your choice: '))
         if option == 1:
-            model.get_user_accounts(session, username)
-        if option == 2:
-            pass
-        if option == 3:
-            print_trade_history_menu()
-            tv_option = int(input('Enter your trade view choice: '))
-        if option == 4:
-            username = set_username()
-        if option == 5:
+            model.get_passangers_older_than(session, 18)
+        elif option == 2:
+            model.get_passangers_by_flight_reason(session, 'Business/Work')
+        elif option == 3:
+            model.get_passangers_by_flight_reason(session, 'On vacation/Pleasure')
+        elif option == 4:
+            model.get_airports_by_transit(session, 'Car rental')
+        elif option == 5:
+            model.get_airports_by_wait(session, 60)
+        elif option == 6:
+            model.get_airports_by_flight_reason(session, 'Business/Work')
+        elif option == 7:
             exit(0)
 
 

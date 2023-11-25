@@ -23,7 +23,7 @@ Para la implementación de este proyecto se hará uso de los motores de **Cassan
   1. **Cassandra**
   ```
 # To start a new container
-docker run --name node01 -p 9042:9042 -d cassandra
+docker run --name car_rental -p 9042:9042 -d cassandra
 
 # If container already exists just start it
 docker start node01
@@ -44,6 +44,4 @@ docker run --name dgraph -d -p 8080:8080 -p 9080:9080  dgraph/standalone:latest
 # To start a new container (ratel)
 docker run --name ratel -d -p 8000:8000 dgraph/ratel:latest
 ```
-
-
 
