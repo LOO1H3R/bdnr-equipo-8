@@ -10,42 +10,25 @@ CREATE_KEYSPACE = """
         WITH replication = {{ 'class': 'SimpleStrategy', 'replication_factor': {} }}
 """
 
-CREATE_USERS_TABLE = """
-    CREATE TABLE IF NOT EXISTS accounts_by_user (
-        username TEXT,
-        account_number TEXT,
-        cash_balance DECIMAL,
-        name TEXT STATIC,
-        PRIMARY KEY ((username),account_number)
+CREATE_PASSANGERS_TABLE = """
+    CREATE TABLE IF NOT EXISTS PASSANGERS (
+        age INT,
+        reason TEXT,
+        transit TEXT,
+        wait INT ,
+        PRIMARY KEY ((age))
     )
 """
 
-CREATE_POSSITIONS_BY_ACCOUNT_TABLE = """
-    CREATE TABLE IF NOT EXISTS positions_by_account (
-        account TEXT,
-        symbol TEXT,
-        quantity DECIMAL,
-        PRIMARY KEY ((account),symbol)
+CREATE_AIRPORTS_TABLE = """
+    CREATE TABLE IF NOT EXISTS AIRPORTS (
+        airline TEXT,
+        location TEXT,
+        transit TEXT,
+        start_date DATE,
+        connection BOOLEAN,
+        PRIMARY KEY ((airline))
     )
-"""
-
-CREATE_TRADES_BY_ACCOUNT_DATE_TABLE = """
-    CREATE TABLE IF NOT EXISTS trades_by_a_d (
-        account TEXT,
-        trade_id TIMEUUID,
-        type TEXT,
-        symbol TEXT,
-        shares DECIMAL,
-        price DECIMAL,
-        amount DECIMAL,
-        PRIMARY KEY ((account), trade_id)
-    ) WITH CLUSTERING ORDER BY (trade_id DESC)
-"""
-
-SELECT_USER_ACCOUNTS = """
-    SELECT username, account_number, name, cash_balance
-    FROM accounts_by_user
-    WHERE username = ?
 """
 
 def create_keyspace(session, keyspace, replication_factor):
@@ -55,9 +38,8 @@ def create_keyspace(session, keyspace, replication_factor):
 
 def create_schema(session):
     log.info("Creating model schema")
-    session.execute(CREATE_USERS_TABLE)
-    session.execute(CREATE_POSSITIONS_BY_ACCOUNT_TABLE)
-    session.execute(CREATE_TRADES_BY_ACCOUNT_DATE_TABLE)
+    session.execute(CREATE_PASSANGERS_TABLE)
+    session.execute(CREATE_AIRPORTS_TABLE)
 
 
 def get_user_accounts(session, username):
