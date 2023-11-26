@@ -1,0 +1,9 @@
+# Para Cassandra
+cassandra-driver
+time_uuid
+
+# Para MongoDB
+fastapi[all]
+pydantic
+pymongo
+requests
