@@ -22,7 +22,13 @@ REPLICATION_FACTOR = os.getenv('CASSANDRA_REPLICATION_FACTOR', '1')
 
 def print_menu():
     mm_options = {
-
+        1: 'show all passangers older than 18 years old',
+        2: 'show all passangers which flight reason is "Business/Work"',
+        3: 'show all passangers which flight reason is "On vacation/Pleasure"',
+        4: 'show all airports which transits are "Car rental"',
+        5: 'show all airports which wait is greater than 1 hour',
+        6: 'show all airports which have more reason "Business/Work"',
+        7: 'exit'
     }
     for key in mm_options.keys():
         print(key, '--', mm_options[key])
@@ -37,7 +43,6 @@ def print_trade_history_menu():
         5: 'show all airports which wait is greater than 1 hour',
         6: 'show all airports which have more reason "Business/Work"',
         7: 'exit'
-
     }
     for key in thm_options.keys():
         print('    ', key, '--', thm_options[key])
@@ -72,15 +77,15 @@ def main():
         if option == 1:
             model.get_passangers_older_than(session, 18)
         elif option == 2:
-            model.get_passangers_by_flight_reason(session, 'Business/Work')
+            model.get_passangers_by_reason(session, 'Business/Work')
         elif option == 3:
-            model.get_passangers_by_flight_reason(session, 'On vacation/Pleasure')
+            model.get_passangers_by_reason(session, 'On vacation/Pleasure')
         elif option == 4:
             model.get_airports_by_transit(session, 'Car rental')
         elif option == 5:
             model.get_airports_by_wait(session, 60)
         elif option == 6:
-            model.get_airports_by_flight_reason(session, 'Business/Work')
+            model.get_passangers_by_reason(session, 'Business/Work')
         elif option == 7:
             exit(0)
 
