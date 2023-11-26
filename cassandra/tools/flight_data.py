@@ -3,7 +3,6 @@ import datetime
 import random
 import uuid
 
-
 CQL_FILE = 'data.cql'
 
 
@@ -18,7 +17,6 @@ stays = ["Hotel", "Short-term homestay", "Home", "Friend/Family"]
 transits = ["Airport cab", "Car rental", "Mobility as a service", "Public Transportation", "Pickup", "Own car"]
 connections = [True, False]
 
-
 def random_date(start_date, end_date):
     time_between_dates = end_date - start_date
     days_between_dates = time_between_dates.days
@@ -27,11 +25,10 @@ def random_date(start_date, end_date):
     return rand_date
 
 
-
-
 def cql_stmt_generator(accounts_num=5000, positions_by_account=100, trades_by_account=1000):
-    passangers_stmt = "INSERT INTO PASSANGERS(age, reason, transit, wait) VALUES ({}, '{}', '{}', {});"
+    passangers_stmt = "INSERT INTO PASSANGERS(airline, age, reason, transit, wait) VALUES ('{}', {}, '{}', '{}', {});"
     airports_stmt = "INSERT INTO AIRPORTS(airline, location, transit, start_date, connection) VALUES ('{}', '{}', '{}', '{}', {});"
+    passangers_by_reason_stmt = "INSERT INTO PASSANGERS_BY_REASON(airline, age, reason, transit, wait) VALUES ('{}', {}, '{}', '{}', {});"
 
     with open(CQL_FILE, "w") as fd:
         for i in range(accounts_num):
@@ -40,7 +37,7 @@ def cql_stmt_generator(accounts_num=5000, positions_by_account=100, trades_by_ac
             while from_airport == to_airport:
                 to_airport = choice(airports)
             date = random_date(datetime.datetime(2013, 1, 1), datetime.datetime(2023, 4, 25))
-            date_object = datetime.strptime(date_string, "%Y-%m-%d")
+            date_object = datetime.datetime.strptime(str(date), '%Y-%m-%d %H:%M:%S')
             timestamp_seconds = int(date_object.timestamp())
             reason = choice(reasons)
             stay = choice(stays)
@@ -58,12 +55,13 @@ def cql_stmt_generator(accounts_num=5000, positions_by_account=100, trades_by_ac
                 stay = "Home"
                 connection = False
                 wait = 0
-            fd.write(passangers_stmt.format(age, reason, transit, wait))
+            fd.write(passangers_stmt.format(airline, age, reason, transit, wait))
             fd.write('\n')
-            fd.write(airports_stmt.format(airline, from_airport, transit, timestamp, connection))
+            fd.write(airports_stmt.format(airline, from_airport, transit, date_object, connection))
             fd.write('\n')
-
-
+            fd.write(passangers_by_reason_stmt.format(airline, age, reason, transit, wait))
+            fd.write('\n')
+            
 
 
 def main():
@@ -72,3 +70,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
