@@ -57,7 +57,7 @@ def main():
         option = int(input('Ingrese su elección: '))
         if option == 1:
             max_pasajeros = int(input("Ingrese el número máximo de pasajeros con el que desea generar la tabla: "))
-            csv_path = "/home/guillermoclinux/bdnr-equipo-8/flight_passengers.csv"
+            csv_path = "/home/guillermoclinux/bdnr-equipo-8-public/data/flight_passengers.csv"
             cql_path1 = "/home/guillermoclinux/bdnr-equipo-8/Cassandra Model 3/rutas_menos_transitadas.cql"
             populate.generar_commando_insert_cql_datos_filtrados(csv_path, cql_path1, max_pasajeros)
         elif option == 2:
@@ -68,8 +68,6 @@ def main():
             capacidad = int(input("Ingrese la capacidad del vuelo: "))
             recuento_pasajeros = int(input("Ingrese el recuento actual de pasajeros: "))
             model.agregar_ruta_menos_transitada(session, aerolinea, id_vuelo, desde, hacia, capacidad, recuento_pasajeros)
-                #print("Error al insertar la ruta. Intente de nuevo.")
-                #continue
         elif option == 3:
             max_pasajeros = int(input("Ingrese el número máximo de pasajeros: "))
             model.consultar_rutas_con_menos_pasajeros(session, max_pasajeros)

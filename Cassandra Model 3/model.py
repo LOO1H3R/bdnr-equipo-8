@@ -62,12 +62,6 @@ SELECT_RUTAS_AEROLINEA = """
     SELECT * FROM datos_pasajero_vuelo WHERE aerolinea = ?
 """
 
-SELECT_RUTAS_PASAJEROS = """
-    SELECT * FROM datos_pasajero_vuelo WHERE recuento_pasajeros <= ?
-    ALLOW FILTERING
-"""
-
-
 # Función para crear un keyspace, en caso de ser necesario.
 def create_keyspace(session, keyspace, replication_factor):
     log.info(f"Creating keyspace: {keyspace} with replication factor {replication_factor}")

@@ -1,0 +1,1001 @@
+airport,restaurant_name,cuisine_type,price_range,rating,opinions
+PDX,Sushi World,Vegetariana,100-200,1.7,"['Delicioso', 'Excelente ambiente', 'Recomendable']"
+GDL,Veggie Delight,Japonesa,600-900,3.6,"['No me gustó', 'Recomendable', 'Buen servicio']"
+LAX,Tacos Campeche,Mexicana,100-200,3.8,"['No me gustó', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Italiana,200-300,2.1,"['Poco caro, pero son rápidos', 'Recomendable']"
+SJC,Veggie Delight,Americana,300-600,2.5,['Excelente ambiente']
+GDL,Pasta Paradise,Italiana,200-300,1.7,"['Buen servicio', 'Excelente ambiente', 'Excelente ambiente']"
+PDX,Veggie Delight,Mexicana,300-600,3.0,"['Poco caro, pero son rápidos', 'Delicioso', 'Delicioso']"
+PDX,Pasta Paradise,Japonesa,600-900,3.4,"['Delicioso', 'No me gustó']"
+JFK,Veggie Delight,Italiana,100-200,2.2,['Delicioso']
+JFK,Burger House,Italiana,100-200,1.1,"['Buen servicio', 'Buen servicio', 'No me gustó']"
+SJC,Pasta Paradise,Italiana,100-200,4.5,"['Buen servicio', 'Recomendable', 'Excelente ambiente']"
+SJC,Veggie Delight,Americana,600-900,3.3,"['Recomendable', 'Recomendable', 'Buen servicio']"
+SJC,Veggie Delight,Mexicana,200-300,2.1,"['Buen servicio', 'Recomendable']"
+GDL,Tacos Campeche,Italiana,600-900,4.1,"['Poco caro, pero son rápidos']"
+JFK,Sushi World,Vegetariana,100-200,2.6,['Delicioso']
+PDX,Tacos Campeche,Vegetariana,300-600,2.5,"['Buen servicio', 'Buen servicio']"
+PDX,Sushi World,Americana,100-200,4.2,"['Recomendable', 'No me gustó']"
+GDL,Veggie Delight,Japonesa,600-900,4.6,['Recomendable']
+LAX,Veggie Delight,Mexicana,100-200,3.1,['Excelente ambiente']
+PDX,Veggie Delight,Vegetariana,300-600,4.8,"['Delicioso', 'Buen servicio']"
+JFK,Burger House,Japonesa,100-200,3.1,"['Poco caro, pero son rápidos', 'Delicioso']"
+LAX,Veggie Delight,Italiana,200-300,4.0,"['Excelente ambiente', 'Recomendable']"
+GDL,Veggie Delight,Americana,300-600,1.7,"['Delicioso', 'Delicioso']"
+LAX,Tacos Campeche,Italiana,200-300,1.2,"['Excelente ambiente', 'Recomendable', 'Excelente ambiente']"
+LAX,Sushi World,Italiana,100-200,4.2,"['Poco caro, pero son rápidos']"
+GDL,Veggie Delight,Americana,200-300,2.9,"['Poco caro, pero son rápidos', 'Delicioso', 'Buen servicio']"
+JFK,Burger House,Americana,100-200,4.5,['Delicioso']
+SJC,Tacos Campeche,Italiana,300-600,1.0,"['Recomendable', 'Recomendable', 'Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Americana,600-900,1.3,['Buen servicio']
+JFK,Burger House,Vegetariana,100-200,4.8,"['Excelente ambiente', 'Recomendable', 'Excelente ambiente']"
+PDX,Burger House,Vegetariana,600-900,4.0,"['Buen servicio', 'Recomendable', 'No me gustó']"
+GDL,Veggie Delight,Mexicana,600-900,4.2,"['Buen servicio', 'Excelente ambiente', 'Recomendable']"
+JFK,Burger House,Vegetariana,600-900,1.5,"['Delicioso', 'Buen servicio']"
+GDL,Tacos Campeche,Mexicana,100-200,2.5,['Delicioso']
+GDL,Pasta Paradise,Mexicana,200-300,2.9,"['Poco caro, pero son rápidos', 'Recomendable', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Italiana,200-300,2.9,"['Recomendable', 'Poco caro, pero son rápidos']"
+GDL,Veggie Delight,Italiana,100-200,4.2,"['Recomendable', 'Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Americana,600-900,2.2,['Excelente ambiente']
+SJC,Sushi World,Japonesa,600-900,1.5,"['Poco caro, pero son rápidos']"
+JFK,Tacos Campeche,Vegetariana,100-200,1.7,"['Poco caro, pero son rápidos', 'Buen servicio', 'Buen servicio']"
+LAX,Pasta Paradise,Americana,300-600,4.7,['No me gustó']
+GDL,Burger House,Mexicana,300-600,2.7,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+GDL,Tacos Campeche,Mexicana,600-900,4.6,['Delicioso']
+PDX,Pasta Paradise,Mexicana,300-600,3.0,"['Recomendable', 'Recomendable']"
+GDL,Tacos Campeche,Vegetariana,200-300,3.3,['No me gustó']
+JFK,Tacos Campeche,Vegetariana,600-900,4.8,"['Buen servicio', 'Excelente ambiente']"
+JFK,Tacos Campeche,Mexicana,200-300,4.8,"['Recomendable', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Americana,100-200,2.9,"['Recomendable', 'Delicioso']"
+JFK,Pasta Paradise,Japonesa,100-200,4.7,"['Excelente ambiente', 'No me gustó']"
+LAX,Veggie Delight,Italiana,600-900,1.9,"['No me gustó', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+JFK,Tacos Campeche,Vegetariana,200-300,3.4,"['Excelente ambiente', 'Excelente ambiente']"
+SJC,Sushi World,Italiana,100-200,1.4,"['Delicioso', 'Buen servicio', 'No me gustó']"
+LAX,Sushi World,Japonesa,600-900,2.9,"['Delicioso', 'No me gustó']"
+LAX,Veggie Delight,Mexicana,600-900,2.2,"['Excelente ambiente', 'Recomendable', 'Delicioso']"
+SJC,Pasta Paradise,Japonesa,100-200,1.1,"['Buen servicio', 'Delicioso']"
+GDL,Veggie Delight,Mexicana,200-300,4.4,['Buen servicio']
+GDL,Burger House,Mexicana,300-600,3.3,"['Excelente ambiente', 'Buen servicio', 'No me gustó']"
+SJC,Tacos Campeche,Vegetariana,300-600,3.7,"['No me gustó', 'Poco caro, pero son rápidos', 'No me gustó']"
+PDX,Burger House,Japonesa,100-200,1.4,"['Buen servicio', 'Delicioso']"
+PDX,Burger House,Japonesa,600-900,2.4,['Recomendable']
+GDL,Veggie Delight,Mexicana,200-300,1.0,['Recomendable']
+GDL,Tacos Campeche,Mexicana,100-200,3.4,"['Delicioso', 'Buen servicio', 'Recomendable']"
+SJC,Sushi World,Americana,300-600,4.0,"['No me gustó', 'No me gustó']"
+JFK,Pasta Paradise,Vegetariana,100-200,5.0,['Delicioso']
+PDX,Tacos Campeche,Japonesa,100-200,3.6,"['Delicioso', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+LAX,Sushi World,Americana,300-600,3.7,"['Poco caro, pero son rápidos', 'Recomendable']"
+JFK,Veggie Delight,Mexicana,600-900,1.5,"['Buen servicio', 'Excelente ambiente', 'Excelente ambiente']"
+JFK,Sushi World,Japonesa,600-900,3.1,"['Poco caro, pero son rápidos', 'Recomendable']"
+LAX,Burger House,Japonesa,300-600,1.8,['Excelente ambiente']
+JFK,Veggie Delight,Vegetariana,600-900,4.2,"['Buen servicio', 'Poco caro, pero son rápidos', 'Delicioso']"
+LAX,Pasta Paradise,Italiana,100-200,3.1,['Buen servicio']
+SJC,Burger House,Japonesa,600-900,4.2,"['Delicioso', 'Poco caro, pero son rápidos']"
+SJC,Pasta Paradise,Mexicana,200-300,1.8,['Buen servicio']
+PDX,Burger House,Vegetariana,200-300,4.3,"['Recomendable', 'Excelente ambiente', 'Recomendable']"
+LAX,Burger House,Americana,600-900,1.9,"['Poco caro, pero son rápidos', 'Delicioso']"
+SJC,Tacos Campeche,Italiana,200-300,3.1,"['Poco caro, pero son rápidos', 'Delicioso', 'Delicioso']"
+LAX,Sushi World,Mexicana,200-300,4.2,['Buen servicio']
+LAX,Veggie Delight,Americana,200-300,3.4,"['Poco caro, pero son rápidos', 'No me gustó', 'Delicioso']"
+GDL,Burger House,Americana,100-200,2.9,"['Recomendable', 'Buen servicio']"
+JFK,Sushi World,Vegetariana,100-200,2.8,"['Delicioso', 'Excelente ambiente']"
+SJC,Burger House,Italiana,600-900,4.0,"['Delicioso', 'Delicioso']"
+SJC,Tacos Campeche,Americana,200-300,1.6,"['Buen servicio', 'Poco caro, pero son rápidos', 'Buen servicio']"
+GDL,Pasta Paradise,Italiana,600-900,2.2,['Excelente ambiente']
+SJC,Pasta Paradise,Italiana,200-300,4.7,"['No me gustó', 'Buen servicio', 'Delicioso']"
+LAX,Sushi World,Vegetariana,600-900,2.3,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+JFK,Pasta Paradise,Italiana,600-900,2.8,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+JFK,Burger House,Japonesa,200-300,1.1,"['Recomendable', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Americana,100-200,1.1,"['Excelente ambiente', 'Excelente ambiente']"
+GDL,Veggie Delight,Vegetariana,100-200,3.7,"['No me gustó', 'Recomendable', 'Poco caro, pero son rápidos']"
+SJC,Burger House,Mexicana,600-900,1.3,['Buen servicio']
+PDX,Tacos Campeche,Mexicana,300-600,4.4,"['Recomendable', 'Recomendable']"
+PDX,Pasta Paradise,Italiana,300-600,1.3,"['Poco caro, pero son rápidos', 'Delicioso']"
+JFK,Tacos Campeche,Mexicana,600-900,2.0,['Delicioso']
+SJC,Veggie Delight,Japonesa,300-600,3.1,"['Poco caro, pero son rápidos', 'Buen servicio']"
+JFK,Tacos Campeche,Vegetariana,300-600,2.3,"['Buen servicio', 'No me gustó', 'Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Mexicana,100-200,1.7,"['Recomendable', 'Buen servicio']"
+LAX,Veggie Delight,Mexicana,200-300,2.1,"['Poco caro, pero son rápidos']"
+JFK,Sushi World,Japonesa,600-900,2.1,"['Excelente ambiente', 'Buen servicio']"
+GDL,Tacos Campeche,Mexicana,100-200,3.9,"['No me gustó', 'Excelente ambiente', 'Excelente ambiente']"
+JFK,Pasta Paradise,Americana,200-300,2.7,['Delicioso']
+SJC,Sushi World,Vegetariana,200-300,3.7,"['No me gustó', 'Recomendable', 'Buen servicio']"
+JFK,Veggie Delight,Italiana,300-600,2.1,"['Delicioso', 'Recomendable', 'No me gustó']"
+GDL,Pasta Paradise,Americana,100-200,2.1,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Delicioso']"
+GDL,Sushi World,Italiana,100-200,4.4,"['Buen servicio', 'Buen servicio']"
+PDX,Veggie Delight,Japonesa,600-900,4.2,"['No me gustó', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Italiana,100-200,2.9,"['Excelente ambiente', 'Buen servicio']"
+PDX,Tacos Campeche,Japonesa,100-200,4.9,"['No me gustó', 'Recomendable']"
+SJC,Pasta Paradise,Mexicana,600-900,1.2,"['No me gustó', 'Poco caro, pero son rápidos', 'Delicioso']"
+LAX,Veggie Delight,Mexicana,300-600,2.8,"['Buen servicio', 'Excelente ambiente']"
+GDL,Veggie Delight,Japonesa,100-200,2.7,['No me gustó']
+GDL,Veggie Delight,Americana,200-300,3.9,"['Recomendable', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+GDL,Tacos Campeche,Americana,300-600,1.8,['Excelente ambiente']
+GDL,Burger House,Japonesa,600-900,2.8,"['Poco caro, pero son rápidos', 'Buen servicio', 'Recomendable']"
+LAX,Sushi World,Mexicana,100-200,2.7,['Recomendable']
+GDL,Tacos Campeche,Japonesa,200-300,4.5,"['Poco caro, pero son rápidos', 'Delicioso']"
+GDL,Burger House,Japonesa,100-200,4.1,"['No me gustó', 'No me gustó']"
+LAX,Tacos Campeche,Vegetariana,300-600,4.5,['No me gustó']
+LAX,Tacos Campeche,Americana,200-300,4.5,"['Delicioso', 'Recomendable', 'Poco caro, pero son rápidos']"
+SJC,Pasta Paradise,Americana,100-200,1.0,['Recomendable']
+GDL,Tacos Campeche,Mexicana,300-600,1.4,['Delicioso']
+PDX,Burger House,Italiana,300-600,4.5,"['No me gustó', 'Poco caro, pero son rápidos', 'Recomendable']"
+LAX,Burger House,Americana,600-900,2.1,"['Excelente ambiente', 'Excelente ambiente']"
+SJC,Tacos Campeche,Italiana,200-300,2.6,"['Excelente ambiente', 'Excelente ambiente', 'Recomendable']"
+GDL,Veggie Delight,Italiana,100-200,2.6,"['Buen servicio', 'Excelente ambiente']"
+SJC,Burger House,Americana,100-200,4.7,['Excelente ambiente']
+JFK,Burger House,Vegetariana,600-900,1.7,"['Buen servicio', 'Excelente ambiente']"
+PDX,Pasta Paradise,Italiana,300-600,4.8,['Delicioso']
+PDX,Veggie Delight,Japonesa,200-300,4.8,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'No me gustó']"
+JFK,Sushi World,Vegetariana,300-600,2.5,['Recomendable']
+GDL,Sushi World,Americana,100-200,4.2,['Buen servicio']
+JFK,Veggie Delight,Japonesa,100-200,1.7,['Recomendable']
+SJC,Burger House,Americana,200-300,3.9,"['Excelente ambiente', 'Delicioso', 'Poco caro, pero son rápidos']"
+LAX,Veggie Delight,Japonesa,100-200,4.4,"['Poco caro, pero son rápidos', 'Recomendable']"
+GDL,Pasta Paradise,Mexicana,600-900,4.3,['No me gustó']
+GDL,Sushi World,Americana,200-300,3.0,"['Buen servicio', 'Recomendable']"
+GDL,Sushi World,Mexicana,300-600,2.5,"['Delicioso', 'Recomendable']"
+JFK,Tacos Campeche,Mexicana,600-900,3.9,['No me gustó']
+GDL,Tacos Campeche,Mexicana,300-600,4.7,"['Excelente ambiente', 'Excelente ambiente', 'Delicioso']"
+JFK,Tacos Campeche,Vegetariana,100-200,1.8,['Excelente ambiente']
+PDX,Burger House,Japonesa,200-300,3.3,"['Poco caro, pero son rápidos', 'Buen servicio', 'Excelente ambiente']"
+JFK,Tacos Campeche,Vegetariana,200-300,4.7,"['Delicioso', 'Excelente ambiente']"
+GDL,Sushi World,Americana,100-200,3.8,['Excelente ambiente']
+SJC,Burger House,Italiana,100-200,4.4,['Buen servicio']
+SJC,Tacos Campeche,Vegetariana,100-200,2.3,"['Recomendable', 'Buen servicio']"
+JFK,Pasta Paradise,Vegetariana,300-600,2.5,"['Delicioso', 'Buen servicio']"
+PDX,Tacos Campeche,Vegetariana,200-300,3.6,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+PDX,Tacos Campeche,Italiana,200-300,4.4,"['Poco caro, pero son rápidos', 'No me gustó']"
+SJC,Sushi World,Vegetariana,600-900,3.0,['Recomendable']
+JFK,Veggie Delight,Vegetariana,200-300,4.5,"['No me gustó', 'Buen servicio']"
+PDX,Tacos Campeche,Americana,300-600,1.6,"['Excelente ambiente', 'No me gustó', 'Poco caro, pero son rápidos']"
+LAX,Sushi World,Americana,100-200,4.1,"['Excelente ambiente', 'Buen servicio']"
+GDL,Tacos Campeche,Americana,200-300,2.3,['No me gustó']
+GDL,Pasta Paradise,Americana,300-600,1.4,"['No me gustó', 'No me gustó', 'No me gustó']"
+GDL,Tacos Campeche,Japonesa,100-200,2.1,"['Buen servicio', 'Excelente ambiente', 'No me gustó']"
+LAX,Veggie Delight,Americana,100-200,4.8,"['Buen servicio', 'Excelente ambiente', 'No me gustó']"
+JFK,Pasta Paradise,Americana,600-900,4.3,"['Poco caro, pero son rápidos', 'Delicioso']"
+PDX,Burger House,Japonesa,600-900,2.2,"['Buen servicio', 'Buen servicio']"
+JFK,Sushi World,Japonesa,300-600,1.5,"['Buen servicio', 'Recomendable']"
+JFK,Tacos Campeche,Americana,600-900,2.0,"['Buen servicio', 'Excelente ambiente']"
+JFK,Veggie Delight,Vegetariana,100-200,1.8,['Excelente ambiente']
+JFK,Pasta Paradise,Vegetariana,200-300,4.5,['No me gustó']
+LAX,Sushi World,Americana,200-300,2.7,"['Buen servicio', 'Poco caro, pero son rápidos', 'Buen servicio']"
+JFK,Sushi World,Americana,100-200,2.5,"['Delicioso', 'Excelente ambiente', 'Buen servicio']"
+LAX,Sushi World,Americana,600-900,1.5,"['Excelente ambiente', 'No me gustó']"
+PDX,Burger House,Vegetariana,600-900,2.5,['Excelente ambiente']
+GDL,Burger House,Italiana,200-300,3.6,"['No me gustó', 'Buen servicio', 'Recomendable']"
+SJC,Burger House,Italiana,600-900,2.5,"['Excelente ambiente', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+GDL,Burger House,Americana,300-600,2.1,"['Delicioso', 'Recomendable']"
+GDL,Sushi World,Mexicana,300-600,2.9,"['Delicioso', 'No me gustó']"
+SJC,Burger House,Vegetariana,100-200,2.2,"['Buen servicio', 'Delicioso', 'Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Japonesa,200-300,2.8,"['Buen servicio', 'Buen servicio']"
+LAX,Tacos Campeche,Americana,300-600,4.7,"['Delicioso', 'Delicioso']"
+GDL,Burger House,Americana,300-600,2.3,"['Poco caro, pero son rápidos', 'Delicioso', 'No me gustó']"
+PDX,Veggie Delight,Japonesa,300-600,4.4,"['Recomendable', 'Buen servicio', 'No me gustó']"
+PDX,Tacos Campeche,Vegetariana,600-900,3.4,"['Delicioso', 'Recomendable']"
+LAX,Veggie Delight,Japonesa,100-200,2.5,['Excelente ambiente']
+GDL,Pasta Paradise,Vegetariana,200-300,3.4,"['Buen servicio', 'Buen servicio']"
+GDL,Burger House,Americana,200-300,3.1,"['Excelente ambiente', 'Recomendable', 'No me gustó']"
+PDX,Tacos Campeche,Japonesa,300-600,1.2,['No me gustó']
+JFK,Veggie Delight,Americana,200-300,2.2,"['Excelente ambiente', 'Delicioso', 'No me gustó']"
+GDL,Burger House,Italiana,200-300,2.1,"['Delicioso', 'Recomendable']"
+PDX,Burger House,Vegetariana,600-900,2.3,"['Poco caro, pero son rápidos', 'No me gustó', 'No me gustó']"
+SJC,Sushi World,Italiana,200-300,3.4,"['Poco caro, pero son rápidos', 'Delicioso', 'No me gustó']"
+PDX,Veggie Delight,Americana,300-600,4.4,['Buen servicio']
+SJC,Tacos Campeche,Japonesa,100-200,4.0,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+GDL,Veggie Delight,Italiana,600-900,2.7,"['Excelente ambiente', 'Excelente ambiente']"
+PDX,Tacos Campeche,Mexicana,300-600,1.7,['Recomendable']
+PDX,Sushi World,Vegetariana,300-600,1.2,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Japonesa,200-300,1.0,"['Poco caro, pero son rápidos', 'No me gustó', 'Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Japonesa,300-600,3.5,['Delicioso']
+SJC,Tacos Campeche,Japonesa,100-200,3.7,"['Buen servicio', 'Excelente ambiente', 'Excelente ambiente']"
+JFK,Veggie Delight,Americana,200-300,2.4,['Recomendable']
+SJC,Veggie Delight,Mexicana,100-200,1.2,"['Recomendable', 'Buen servicio']"
+JFK,Sushi World,Vegetariana,600-900,4.0,"['No me gustó', 'Recomendable', 'Delicioso']"
+JFK,Burger House,Japonesa,200-300,1.3,"['No me gustó', 'No me gustó']"
+GDL,Veggie Delight,Japonesa,100-200,2.0,"['Delicioso', 'Recomendable', 'Recomendable']"
+PDX,Tacos Campeche,Japonesa,200-300,3.7,"['Delicioso', 'No me gustó', 'Delicioso']"
+PDX,Burger House,Italiana,600-900,4.2,"['Buen servicio', 'Buen servicio', 'Recomendable']"
+JFK,Burger House,Italiana,300-600,1.8,"['Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Japonesa,300-600,1.2,"['Buen servicio', 'Delicioso']"
+GDL,Tacos Campeche,Japonesa,200-300,4.7,"['Delicioso', 'No me gustó', 'Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Americana,600-900,5.0,['Recomendable']
+LAX,Burger House,Vegetariana,600-900,4.2,"['Poco caro, pero son rápidos']"
+JFK,Veggie Delight,Vegetariana,300-600,3.7,"['Recomendable', 'Delicioso', 'Excelente ambiente']"
+GDL,Burger House,Mexicana,600-900,4.1,"['Buen servicio', 'Poco caro, pero son rápidos']"
+PDX,Burger House,Vegetariana,600-900,3.5,['Buen servicio']
+GDL,Tacos Campeche,Italiana,100-200,4.8,"['Delicioso', 'Poco caro, pero son rápidos']"
+PDX,Sushi World,Mexicana,300-600,1.7,"['No me gustó', 'Delicioso']"
+SJC,Tacos Campeche,Mexicana,300-600,4.3,"['Poco caro, pero son rápidos', 'Excelente ambiente']"
+JFK,Burger House,Americana,300-600,2.7,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+PDX,Sushi World,Americana,200-300,3.9,"['Excelente ambiente', 'Recomendable', 'Delicioso']"
+PDX,Veggie Delight,Japonesa,100-200,1.4,"['Delicioso', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+PDX,Pasta Paradise,Americana,600-900,3.9,"['Poco caro, pero son rápidos', 'Recomendable']"
+LAX,Veggie Delight,Americana,300-600,3.6,"['Buen servicio', 'Buen servicio', 'Buen servicio']"
+JFK,Veggie Delight,Mexicana,100-200,2.9,['Delicioso']
+JFK,Veggie Delight,Americana,300-600,2.8,"['Buen servicio', 'Buen servicio']"
+PDX,Burger House,Vegetariana,100-200,1.7,"['No me gustó', 'Recomendable', 'Excelente ambiente']"
+GDL,Veggie Delight,Italiana,600-900,4.0,['No me gustó']
+GDL,Veggie Delight,Italiana,300-600,1.2,"['Buen servicio', 'Delicioso', 'Recomendable']"
+LAX,Pasta Paradise,Italiana,200-300,3.7,"['Delicioso', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+SJC,Burger House,Mexicana,200-300,2.2,['Buen servicio']
+LAX,Burger House,Americana,100-200,4.5,"['Delicioso', 'Buen servicio', 'Delicioso']"
+GDL,Burger House,Italiana,600-900,4.8,['Excelente ambiente']
+SJC,Tacos Campeche,Americana,600-900,3.3,"['Buen servicio', 'Poco caro, pero son rápidos']"
+PDX,Sushi World,Vegetariana,200-300,3.9,"['Recomendable', 'Buen servicio', 'Buen servicio']"
+JFK,Burger House,Americana,200-300,2.7,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+LAX,Veggie Delight,Americana,100-200,3.7,['Delicioso']
+JFK,Pasta Paradise,Vegetariana,300-600,2.1,"['Poco caro, pero son rápidos']"
+LAX,Pasta Paradise,Americana,300-600,1.4,['Buen servicio']
+PDX,Tacos Campeche,Italiana,200-300,1.6,['Delicioso']
+LAX,Pasta Paradise,Vegetariana,300-600,4.7,['No me gustó']
+GDL,Sushi World,Japonesa,300-600,1.3,['Buen servicio']
+GDL,Tacos Campeche,Italiana,300-600,4.8,"['Delicioso', 'Recomendable', 'Recomendable']"
+GDL,Tacos Campeche,Americana,200-300,1.2,"['Buen servicio', 'Buen servicio', 'Buen servicio']"
+PDX,Burger House,Japonesa,100-200,4.5,"['Delicioso', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+SJC,Tacos Campeche,Americana,300-600,2.3,"['Poco caro, pero son rápidos', 'Excelente ambiente', 'Excelente ambiente']"
+LAX,Tacos Campeche,Italiana,100-200,2.4,"['No me gustó', 'Buen servicio', 'Delicioso']"
+SJC,Veggie Delight,Vegetariana,300-600,1.8,"['Poco caro, pero son rápidos', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+SJC,Pasta Paradise,Vegetariana,200-300,2.5,"['Poco caro, pero son rápidos', 'Excelente ambiente', 'Excelente ambiente']"
+JFK,Veggie Delight,Americana,100-200,3.7,"['Excelente ambiente', 'Recomendable']"
+JFK,Veggie Delight,Japonesa,200-300,3.4,"['Delicioso', 'No me gustó']"
+PDX,Pasta Paradise,Italiana,600-900,2.5,"['Delicioso', 'Delicioso', 'Buen servicio']"
+PDX,Sushi World,Mexicana,200-300,2.8,"['Recomendable', 'No me gustó']"
+SJC,Sushi World,Vegetariana,100-200,1.3,"['Poco caro, pero son rápidos']"
+JFK,Veggie Delight,Americana,600-900,4.5,"['No me gustó', 'Poco caro, pero son rápidos', 'Recomendable']"
+SJC,Sushi World,Americana,200-300,2.9,['Recomendable']
+JFK,Sushi World,Italiana,300-600,2.0,['No me gustó']
+PDX,Veggie Delight,Japonesa,100-200,3.9,"['Delicioso', 'Buen servicio', 'No me gustó']"
+GDL,Veggie Delight,Americana,300-600,3.4,"['Poco caro, pero son rápidos', 'Buen servicio', 'No me gustó']"
+SJC,Pasta Paradise,Japonesa,300-600,1.2,"['Buen servicio', 'Recomendable']"
+JFK,Pasta Paradise,Italiana,100-200,2.9,"['Recomendable', 'Excelente ambiente']"
+PDX,Burger House,Vegetariana,100-200,1.2,['Excelente ambiente']
+LAX,Tacos Campeche,Mexicana,100-200,3.8,"['No me gustó', 'Poco caro, pero son rápidos']"
+GDL,Pasta Paradise,Americana,200-300,1.7,"['No me gustó', 'Recomendable', 'Delicioso']"
+GDL,Pasta Paradise,Americana,300-600,3.1,['Recomendable']
+GDL,Veggie Delight,Americana,200-300,3.3,"['No me gustó', 'Excelente ambiente']"
+SJC,Burger House,Italiana,200-300,3.4,"['Delicioso', 'Delicioso', 'Buen servicio']"
+SJC,Sushi World,Americana,100-200,1.3,"['Recomendable', 'Poco caro, pero son rápidos']"
+LAX,Sushi World,Vegetariana,100-200,1.2,['Recomendable']
+JFK,Tacos Campeche,Italiana,300-600,3.9,['Delicioso']
+SJC,Veggie Delight,Americana,100-200,2.8,"['Recomendable', 'No me gustó', 'Recomendable']"
+SJC,Pasta Paradise,Vegetariana,600-900,3.7,"['Recomendable', 'Delicioso', 'Excelente ambiente']"
+JFK,Veggie Delight,Japonesa,200-300,1.6,"['Recomendable', 'Buen servicio', 'Recomendable']"
+LAX,Veggie Delight,Americana,300-600,1.2,"['No me gustó', 'Excelente ambiente', 'Excelente ambiente']"
+SJC,Veggie Delight,Italiana,600-900,3.4,"['Buen servicio', 'No me gustó', 'No me gustó']"
+GDL,Sushi World,Japonesa,300-600,1.1,['Buen servicio']
+GDL,Burger House,Americana,200-300,1.8,"['Recomendable', 'Delicioso', 'Recomendable']"
+PDX,Pasta Paradise,Vegetariana,600-900,2.9,"['Delicioso', 'Buen servicio']"
+LAX,Veggie Delight,Vegetariana,300-600,1.5,"['Recomendable', 'Recomendable']"
+GDL,Tacos Campeche,Americana,600-900,4.7,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+GDL,Veggie Delight,Americana,600-900,4.6,['Delicioso']
+PDX,Burger House,Americana,300-600,2.3,"['Excelente ambiente', 'Delicioso']"
+GDL,Veggie Delight,Vegetariana,600-900,3.8,"['Recomendable', 'Delicioso', 'No me gustó']"
+PDX,Burger House,Japonesa,300-600,2.8,['Delicioso']
+GDL,Pasta Paradise,Italiana,200-300,1.8,['Excelente ambiente']
+GDL,Veggie Delight,Italiana,100-200,1.5,"['Recomendable', 'Delicioso']"
+GDL,Tacos Campeche,Mexicana,600-900,2.5,"['No me gustó', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+LAX,Veggie Delight,Japonesa,200-300,4.5,['No me gustó']
+PDX,Burger House,Italiana,200-300,1.0,"['Buen servicio', 'Buen servicio']"
+LAX,Veggie Delight,Americana,300-600,3.0,['Recomendable']
+SJC,Pasta Paradise,Japonesa,100-200,3.7,"['Poco caro, pero son rápidos', 'Delicioso', 'No me gustó']"
+GDL,Burger House,Mexicana,300-600,2.3,['No me gustó']
+LAX,Burger House,Vegetariana,100-200,3.4,"['Excelente ambiente', 'Excelente ambiente', 'Excelente ambiente']"
+SJC,Tacos Campeche,Mexicana,300-600,1.8,"['Delicioso', 'Buen servicio', 'Excelente ambiente']"
+PDX,Pasta Paradise,Vegetariana,300-600,3.2,"['Delicioso', 'Recomendable']"
+GDL,Burger House,Japonesa,100-200,1.2,['Delicioso']
+SJC,Tacos Campeche,Vegetariana,600-900,3.5,"['Excelente ambiente', 'No me gustó']"
+SJC,Sushi World,Japonesa,600-900,1.5,"['No me gustó', 'Recomendable', 'Excelente ambiente']"
+SJC,Sushi World,Japonesa,200-300,4.1,"['Buen servicio', 'Poco caro, pero son rápidos']"
+LAX,Pasta Paradise,Americana,100-200,4.7,['Buen servicio']
+SJC,Veggie Delight,Italiana,200-300,2.0,"['Buen servicio', 'Excelente ambiente']"
+JFK,Sushi World,Mexicana,300-600,1.3,"['Poco caro, pero son rápidos']"
+PDX,Burger House,Mexicana,100-200,1.8,"['Excelente ambiente', 'Delicioso']"
+PDX,Burger House,Vegetariana,100-200,4.9,"['Poco caro, pero son rápidos']"
+SJC,Pasta Paradise,Mexicana,200-300,1.7,"['Buen servicio', 'Buen servicio', 'Poco caro, pero son rápidos']"
+JFK,Tacos Campeche,Americana,600-900,4.7,['Excelente ambiente']
+JFK,Veggie Delight,Americana,200-300,2.4,"['Excelente ambiente', 'Buen servicio']"
+LAX,Tacos Campeche,Americana,600-900,1.9,"['Recomendable', 'Recomendable', 'Recomendable']"
+GDL,Veggie Delight,Mexicana,100-200,1.8,"['No me gustó', 'Poco caro, pero son rápidos', 'Recomendable']"
+GDL,Pasta Paradise,Italiana,300-600,4.6,"['Excelente ambiente', 'Delicioso']"
+GDL,Burger House,Vegetariana,100-200,3.8,"['Excelente ambiente', 'Excelente ambiente']"
+LAX,Pasta Paradise,Mexicana,200-300,4.8,"['Buen servicio', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+LAX,Pasta Paradise,Italiana,600-900,1.5,"['No me gustó', 'No me gustó']"
+GDL,Burger House,Italiana,100-200,3.6,['No me gustó']
+SJC,Sushi World,Vegetariana,100-200,3.9,"['No me gustó', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+LAX,Burger House,Japonesa,300-600,4.8,"['Recomendable', 'Buen servicio', 'Poco caro, pero son rápidos']"
+GDL,Sushi World,Italiana,300-600,2.6,"['Poco caro, pero son rápidos', 'Excelente ambiente']"
+SJC,Tacos Campeche,Italiana,300-600,4.2,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+SJC,Burger House,Vegetariana,300-600,1.8,['Excelente ambiente']
+PDX,Veggie Delight,Japonesa,100-200,2.1,"['No me gustó', 'Delicioso', 'Delicioso']"
+GDL,Tacos Campeche,Italiana,600-900,4.4,"['Recomendable', 'Buen servicio', 'No me gustó']"
+SJC,Burger House,Italiana,100-200,3.3,"['Delicioso', 'Poco caro, pero son rápidos', 'Delicioso']"
+PDX,Tacos Campeche,Vegetariana,300-600,3.0,['Excelente ambiente']
+GDL,Pasta Paradise,Americana,100-200,1.1,"['Poco caro, pero son rápidos', 'Delicioso']"
+LAX,Veggie Delight,Vegetariana,300-600,3.5,"['Delicioso', 'Poco caro, pero son rápidos']"
+GDL,Sushi World,Italiana,300-600,2.1,"['Poco caro, pero son rápidos', 'No me gustó', 'Excelente ambiente']"
+LAX,Veggie Delight,Americana,200-300,4.4,['Delicioso']
+SJC,Burger House,Italiana,600-900,4.3,"['Buen servicio', 'Poco caro, pero son rápidos']"
+JFK,Sushi World,Mexicana,300-600,2.2,"['Recomendable', 'Buen servicio', 'Poco caro, pero son rápidos']"
+LAX,Tacos Campeche,Vegetariana,200-300,1.6,"['Poco caro, pero son rápidos', 'Buen servicio', 'Delicioso']"
+JFK,Tacos Campeche,Vegetariana,100-200,2.7,"['Excelente ambiente', 'Delicioso', 'Excelente ambiente']"
+GDL,Pasta Paradise,Mexicana,300-600,3.7,['Buen servicio']
+LAX,Burger House,Americana,600-900,4.7,"['Poco caro, pero son rápidos']"
+JFK,Tacos Campeche,Vegetariana,100-200,1.2,"['Buen servicio', 'Excelente ambiente', 'Recomendable']"
+SJC,Veggie Delight,Mexicana,200-300,2.0,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+JFK,Tacos Campeche,Japonesa,600-900,2.1,['Excelente ambiente']
+LAX,Tacos Campeche,Japonesa,200-300,3.4,"['Delicioso', 'No me gustó', 'Excelente ambiente']"
+SJC,Pasta Paradise,Japonesa,200-300,4.2,"['Poco caro, pero son rápidos', 'Delicioso', 'Recomendable']"
+GDL,Veggie Delight,Vegetariana,200-300,4.4,['Buen servicio']
+GDL,Veggie Delight,Vegetariana,100-200,4.8,"['No me gustó', 'Recomendable']"
+PDX,Veggie Delight,Japonesa,100-200,2.9,"['No me gustó', 'No me gustó']"
+LAX,Veggie Delight,Japonesa,300-600,2.8,"['Poco caro, pero son rápidos', 'Buen servicio', 'No me gustó']"
+GDL,Veggie Delight,Vegetariana,300-600,1.1,"['Recomendable', 'Excelente ambiente']"
+GDL,Pasta Paradise,Japonesa,300-600,4.2,['Excelente ambiente']
+JFK,Pasta Paradise,Americana,200-300,4.3,['Recomendable']
+SJC,Pasta Paradise,Italiana,300-600,4.5,"['Excelente ambiente', 'Buen servicio']"
+GDL,Sushi World,Vegetariana,300-600,1.2,['No me gustó']
+LAX,Burger House,Japonesa,300-600,1.4,"['Poco caro, pero son rápidos', 'Excelente ambiente']"
+LAX,Veggie Delight,Italiana,600-900,4.5,"['Buen servicio', 'Buen servicio', 'Delicioso']"
+GDL,Tacos Campeche,Americana,100-200,3.0,['Delicioso']
+SJC,Burger House,Vegetariana,100-200,2.4,"['Buen servicio', 'Poco caro, pero son rápidos']"
+GDL,Sushi World,Italiana,600-900,3.2,"['Delicioso', 'Delicioso', 'Excelente ambiente']"
+JFK,Burger House,Vegetariana,600-900,1.6,"['Buen servicio', 'No me gustó', 'Recomendable']"
+GDL,Burger House,Japonesa,300-600,2.6,"['Excelente ambiente', 'No me gustó']"
+JFK,Pasta Paradise,Americana,200-300,3.6,"['No me gustó', 'Delicioso', 'Excelente ambiente']"
+GDL,Burger House,Mexicana,100-200,1.9,['Excelente ambiente']
+GDL,Pasta Paradise,Italiana,600-900,1.1,"['No me gustó', 'Excelente ambiente', 'Excelente ambiente']"
+PDX,Burger House,Vegetariana,600-900,3.0,"['Poco caro, pero son rápidos']"
+JFK,Tacos Campeche,Italiana,100-200,2.4,"['Buen servicio', 'Poco caro, pero son rápidos']"
+JFK,Veggie Delight,Vegetariana,200-300,1.3,"['Recomendable', 'Delicioso']"
+JFK,Veggie Delight,Americana,200-300,2.2,"['No me gustó', 'Excelente ambiente']"
+JFK,Pasta Paradise,Mexicana,600-900,3.8,['Recomendable']
+GDL,Sushi World,Italiana,200-300,3.6,"['Excelente ambiente', 'Excelente ambiente']"
+GDL,Burger House,Vegetariana,100-200,2.8,"['Poco caro, pero son rápidos', 'Buen servicio']"
+GDL,Veggie Delight,Americana,200-300,3.6,"['Delicioso', 'No me gustó', 'Excelente ambiente']"
+GDL,Burger House,Italiana,100-200,4.2,"['Recomendable', 'Poco caro, pero son rápidos']"
+SJC,Burger House,Italiana,100-200,5.0,"['No me gustó', 'Buen servicio', 'Recomendable']"
+LAX,Sushi World,Japonesa,100-200,4.5,"['Buen servicio', 'No me gustó', 'Buen servicio']"
+PDX,Tacos Campeche,Mexicana,300-600,3.6,"['Excelente ambiente', 'Buen servicio', 'Delicioso']"
+JFK,Veggie Delight,Japonesa,200-300,2.6,"['No me gustó', 'No me gustó', 'Poco caro, pero son rápidos']"
+JFK,Burger House,Japonesa,300-600,2.7,"['Buen servicio', 'Excelente ambiente', 'No me gustó']"
+PDX,Burger House,Americana,300-600,3.5,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+JFK,Burger House,Americana,100-200,1.1,"['Poco caro, pero son rápidos', 'No me gustó']"
+LAX,Veggie Delight,Vegetariana,200-300,4.4,"['Delicioso', 'Poco caro, pero son rápidos']"
+JFK,Veggie Delight,Americana,200-300,3.8,"['Recomendable', 'Delicioso', 'No me gustó']"
+JFK,Veggie Delight,Japonesa,300-600,3.7,"['Poco caro, pero son rápidos', 'Buen servicio']"
+SJC,Pasta Paradise,Japonesa,600-900,2.2,"['Poco caro, pero son rápidos']"
+JFK,Tacos Campeche,Americana,300-600,2.2,['No me gustó']
+PDX,Pasta Paradise,Japonesa,100-200,1.4,"['Poco caro, pero son rápidos', 'Delicioso', 'Buen servicio']"
+JFK,Tacos Campeche,Vegetariana,100-200,2.9,"['Recomendable', 'Poco caro, pero son rápidos', 'Delicioso']"
+PDX,Veggie Delight,Americana,100-200,3.1,['Recomendable']
+SJC,Pasta Paradise,Vegetariana,300-600,4.3,"['Delicioso', 'Buen servicio', 'No me gustó']"
+JFK,Burger House,Mexicana,100-200,3.0,"['Buen servicio', 'No me gustó']"
+GDL,Tacos Campeche,Vegetariana,600-900,1.3,['Buen servicio']
+PDX,Veggie Delight,Americana,600-900,2.1,"['Recomendable', 'No me gustó', 'No me gustó']"
+LAX,Veggie Delight,Vegetariana,100-200,3.0,['No me gustó']
+SJC,Tacos Campeche,Japonesa,300-600,3.1,"['Recomendable', 'No me gustó']"
+PDX,Sushi World,Mexicana,200-300,4.0,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+LAX,Veggie Delight,Vegetariana,100-200,2.6,"['No me gustó', 'Excelente ambiente']"
+LAX,Sushi World,Japonesa,300-600,3.6,"['Recomendable', 'Delicioso']"
+PDX,Tacos Campeche,Mexicana,100-200,2.8,['Delicioso']
+JFK,Veggie Delight,Vegetariana,300-600,3.6,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+LAX,Tacos Campeche,Japonesa,600-900,2.8,"['Recomendable', 'Buen servicio']"
+SJC,Tacos Campeche,Italiana,600-900,1.3,"['Recomendable', 'No me gustó', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Mexicana,200-300,2.9,"['Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Italiana,200-300,4.9,['Excelente ambiente']
+SJC,Veggie Delight,Mexicana,300-600,3.1,['Recomendable']
+SJC,Sushi World,Mexicana,300-600,2.6,"['Excelente ambiente', 'Buen servicio']"
+JFK,Tacos Campeche,Mexicana,200-300,1.0,"['No me gustó', 'Poco caro, pero son rápidos']"
+LAX,Pasta Paradise,Vegetariana,600-900,2.3,['No me gustó']
+SJC,Burger House,Italiana,600-900,2.0,"['Buen servicio', 'Buen servicio', 'Recomendable']"
+GDL,Veggie Delight,Vegetariana,600-900,1.5,"['Buen servicio', 'Excelente ambiente']"
+PDX,Burger House,Americana,300-600,1.6,['Recomendable']
+LAX,Pasta Paradise,Vegetariana,300-600,2.3,"['No me gustó', 'Delicioso', 'Buen servicio']"
+SJC,Sushi World,Italiana,100-200,1.2,"['Delicioso', 'Recomendable']"
+PDX,Burger House,Americana,200-300,1.4,"['Recomendable', 'Poco caro, pero son rápidos']"
+JFK,Tacos Campeche,Mexicana,100-200,2.2,"['Buen servicio', 'No me gustó', 'No me gustó']"
+LAX,Tacos Campeche,Japonesa,200-300,1.0,"['Excelente ambiente', 'Recomendable']"
+PDX,Pasta Paradise,Italiana,600-900,2.7,"['Poco caro, pero son rápidos']"
+JFK,Veggie Delight,Japonesa,600-900,3.3,"['Poco caro, pero son rápidos']"
+LAX,Veggie Delight,Japonesa,200-300,2.8,['Buen servicio']
+GDL,Veggie Delight,Americana,100-200,1.6,['Delicioso']
+GDL,Sushi World,Americana,200-300,2.9,['No me gustó']
+SJC,Burger House,Americana,600-900,2.6,"['Poco caro, pero son rápidos']"
+GDL,Veggie Delight,Vegetariana,200-300,3.1,"['Delicioso', 'Excelente ambiente', 'Excelente ambiente']"
+SJC,Veggie Delight,Americana,600-900,1.8,"['Delicioso', 'Buen servicio', 'No me gustó']"
+JFK,Burger House,Vegetariana,300-600,3.4,"['Poco caro, pero son rápidos', 'No me gustó', 'No me gustó']"
+JFK,Pasta Paradise,Americana,200-300,4.0,"['Recomendable', 'Recomendable', 'Poco caro, pero son rápidos']"
+LAX,Burger House,Italiana,200-300,3.5,"['Excelente ambiente', 'Buen servicio', 'Recomendable']"
+GDL,Veggie Delight,Japonesa,100-200,4.7,"['Poco caro, pero son rápidos', 'Delicioso', 'Poco caro, pero son rápidos']"
+LAX,Pasta Paradise,Japonesa,200-300,2.7,"['Recomendable', 'Poco caro, pero son rápidos', 'Buen servicio']"
+PDX,Veggie Delight,Mexicana,100-200,4.2,"['Buen servicio', 'Poco caro, pero son rápidos']"
+LAX,Burger House,Americana,600-900,2.5,"['Recomendable', 'Recomendable']"
+LAX,Veggie Delight,Mexicana,100-200,2.9,"['No me gustó', 'Buen servicio']"
+SJC,Veggie Delight,Japonesa,100-200,1.3,['Excelente ambiente']
+JFK,Tacos Campeche,Americana,600-900,2.4,"['Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Italiana,100-200,3.0,"['Delicioso', 'Excelente ambiente', 'Delicioso']"
+GDL,Sushi World,Italiana,100-200,4.2,"['Buen servicio', 'Recomendable', 'Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Americana,300-600,2.4,"['Poco caro, pero son rápidos', 'No me gustó', 'Poco caro, pero son rápidos']"
+PDX,Veggie Delight,Americana,100-200,4.6,"['Poco caro, pero son rápidos', 'Delicioso', 'No me gustó']"
+LAX,Tacos Campeche,Vegetariana,600-900,2.7,"['Delicioso', 'No me gustó', 'Poco caro, pero son rápidos']"
+LAX,Sushi World,Mexicana,600-900,3.8,"['Buen servicio', 'No me gustó']"
+SJC,Tacos Campeche,Japonesa,600-900,3.2,['Buen servicio']
+GDL,Pasta Paradise,Japonesa,600-900,2.8,"['No me gustó', 'Excelente ambiente', 'Delicioso']"
+JFK,Sushi World,Italiana,300-600,2.2,"['Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Americana,200-300,5.0,"['Excelente ambiente', 'No me gustó', 'Delicioso']"
+LAX,Veggie Delight,Italiana,300-600,4.8,['Recomendable']
+JFK,Veggie Delight,Americana,200-300,4.9,"['Excelente ambiente', 'No me gustó']"
+GDL,Burger House,Americana,200-300,3.3,"['Poco caro, pero son rápidos']"
+LAX,Veggie Delight,Italiana,100-200,1.2,['No me gustó']
+PDX,Pasta Paradise,Vegetariana,300-600,4.2,"['Buen servicio', 'Excelente ambiente']"
+GDL,Pasta Paradise,Vegetariana,100-200,2.5,['Delicioso']
+PDX,Pasta Paradise,Japonesa,300-600,3.4,"['Buen servicio', 'Buen servicio']"
+JFK,Pasta Paradise,Italiana,200-300,2.5,"['Poco caro, pero son rápidos']"
+PDX,Sushi World,Vegetariana,300-600,4.1,['Recomendable']
+SJC,Sushi World,Mexicana,300-600,2.4,['Buen servicio']
+JFK,Tacos Campeche,Vegetariana,300-600,4.2,"['Poco caro, pero son rápidos', 'Buen servicio']"
+LAX,Sushi World,Italiana,200-300,4.2,"['Delicioso', 'Recomendable']"
+GDL,Burger House,Mexicana,200-300,3.2,"['Poco caro, pero son rápidos', 'Buen servicio']"
+JFK,Tacos Campeche,Japonesa,200-300,3.2,"['Recomendable', 'Delicioso']"
+PDX,Burger House,Italiana,100-200,2.6,['Buen servicio']
+JFK,Veggie Delight,Americana,300-600,2.3,"['Excelente ambiente', 'No me gustó', 'Excelente ambiente']"
+SJC,Tacos Campeche,Italiana,200-300,1.4,"['No me gustó', 'No me gustó']"
+SJC,Burger House,Italiana,600-900,4.7,"['No me gustó', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+PDX,Sushi World,Italiana,100-200,2.0,"['Delicioso', 'Delicioso']"
+GDL,Pasta Paradise,Mexicana,200-300,3.4,"['Buen servicio', 'No me gustó', 'Recomendable']"
+GDL,Sushi World,Mexicana,100-200,4.1,['Delicioso']
+PDX,Burger House,Americana,200-300,1.8,"['No me gustó', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+JFK,Veggie Delight,Japonesa,600-900,1.5,"['No me gustó', 'Excelente ambiente']"
+LAX,Pasta Paradise,Americana,100-200,4.7,"['Recomendable', 'Buen servicio']"
+PDX,Burger House,Vegetariana,300-600,1.6,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+LAX,Burger House,Mexicana,200-300,2.3,"['Delicioso', 'No me gustó', 'Recomendable']"
+SJC,Tacos Campeche,Italiana,100-200,4.7,"['No me gustó', 'Recomendable', 'Poco caro, pero son rápidos']"
+JFK,Burger House,Mexicana,100-200,3.3,['Delicioso']
+JFK,Pasta Paradise,Mexicana,200-300,3.2,"['Poco caro, pero son rápidos', 'No me gustó']"
+SJC,Tacos Campeche,Italiana,100-200,2.4,"['Recomendable', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+PDX,Sushi World,Americana,300-600,3.8,['Delicioso']
+LAX,Veggie Delight,Mexicana,600-900,3.1,"['Poco caro, pero son rápidos']"
+PDX,Sushi World,Italiana,200-300,3.4,"['No me gustó', 'Excelente ambiente', 'Delicioso']"
+JFK,Veggie Delight,Vegetariana,100-200,3.5,"['No me gustó', 'Poco caro, pero son rápidos']"
+JFK,Burger House,Japonesa,200-300,2.7,"['Buen servicio', 'Delicioso']"
+SJC,Sushi World,Italiana,300-600,3.5,"['Poco caro, pero son rápidos', 'Buen servicio']"
+LAX,Tacos Campeche,Italiana,100-200,3.9,"['Poco caro, pero son rápidos', 'Excelente ambiente', 'No me gustó']"
+LAX,Veggie Delight,Americana,600-900,1.2,"['Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Italiana,600-900,4.1,"['Excelente ambiente', 'No me gustó']"
+JFK,Veggie Delight,Americana,100-200,4.4,"['No me gustó', 'Delicioso']"
+PDX,Burger House,Mexicana,300-600,3.2,"['Poco caro, pero son rápidos', 'Recomendable']"
+LAX,Burger House,Mexicana,100-200,1.9,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+GDL,Pasta Paradise,Japonesa,300-600,4.9,"['Poco caro, pero son rápidos', 'Delicioso', 'Delicioso']"
+GDL,Tacos Campeche,Mexicana,200-300,3.3,"['Poco caro, pero son rápidos']"
+PDX,Pasta Paradise,Mexicana,200-300,1.0,"['Excelente ambiente', 'No me gustó', 'Recomendable']"
+PDX,Burger House,Vegetariana,200-300,3.3,['Buen servicio']
+LAX,Tacos Campeche,Italiana,200-300,1.4,"['Poco caro, pero son rápidos', 'Buen servicio']"
+SJC,Burger House,Italiana,200-300,4.1,"['Delicioso', 'Excelente ambiente', 'Buen servicio']"
+SJC,Tacos Campeche,Japonesa,100-200,2.6,"['Delicioso', 'Buen servicio', 'Excelente ambiente']"
+PDX,Tacos Campeche,Japonesa,200-300,2.3,"['Delicioso', 'No me gustó']"
+GDL,Pasta Paradise,Japonesa,100-200,4.2,"['Buen servicio', 'Recomendable', 'Delicioso']"
+SJC,Sushi World,Vegetariana,200-300,2.7,"['Excelente ambiente', 'Buen servicio', 'Delicioso']"
+SJC,Veggie Delight,Mexicana,100-200,5.0,"['No me gustó', 'Delicioso', 'Delicioso']"
+JFK,Tacos Campeche,Italiana,600-900,3.9,"['Poco caro, pero son rápidos']"
+PDX,Veggie Delight,Japonesa,100-200,3.8,"['Excelente ambiente', 'Poco caro, pero son rápidos', 'No me gustó']"
+PDX,Sushi World,Americana,300-600,2.9,"['Recomendable', 'No me gustó', 'Recomendable']"
+PDX,Tacos Campeche,Mexicana,100-200,4.4,"['Buen servicio', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+JFK,Sushi World,Mexicana,300-600,1.8,"['Recomendable', 'Buen servicio']"
+SJC,Sushi World,Mexicana,100-200,4.7,"['Excelente ambiente', 'No me gustó']"
+SJC,Sushi World,Vegetariana,200-300,3.6,"['Recomendable', 'Delicioso', 'Buen servicio']"
+GDL,Tacos Campeche,Americana,600-900,2.2,"['Delicioso', 'Excelente ambiente']"
+SJC,Tacos Campeche,Japonesa,200-300,1.5,"['No me gustó', 'Poco caro, pero son rápidos']"
+GDL,Veggie Delight,Italiana,100-200,3.7,"['Recomendable', 'Excelente ambiente']"
+LAX,Burger House,Italiana,100-200,4.7,['Buen servicio']
+JFK,Tacos Campeche,Mexicana,200-300,1.2,['No me gustó']
+GDL,Sushi World,Italiana,300-600,4.2,"['Delicioso', 'No me gustó']"
+LAX,Veggie Delight,Japonesa,200-300,2.5,['Recomendable']
+GDL,Sushi World,Italiana,300-600,2.3,['Excelente ambiente']
+PDX,Pasta Paradise,Americana,100-200,4.5,"['Recomendable', 'Poco caro, pero son rápidos']"
+JFK,Sushi World,Vegetariana,200-300,2.7,"['Delicioso', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+JFK,Burger House,Vegetariana,600-900,4.7,"['Poco caro, pero son rápidos', 'Excelente ambiente']"
+GDL,Veggie Delight,Americana,100-200,1.9,"['Buen servicio', 'Recomendable', 'Poco caro, pero son rápidos']"
+LAX,Pasta Paradise,Italiana,200-300,3.0,"['Poco caro, pero son rápidos']"
+PDX,Sushi World,Italiana,300-600,4.8,"['Poco caro, pero son rápidos', 'Buen servicio']"
+GDL,Veggie Delight,Mexicana,200-300,2.5,"['Recomendable', 'Poco caro, pero son rápidos']"
+SJC,Sushi World,Vegetariana,300-600,2.0,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Recomendable']"
+PDX,Veggie Delight,Japonesa,100-200,4.6,['Recomendable']
+SJC,Pasta Paradise,Italiana,600-900,4.3,['No me gustó']
+SJC,Burger House,Vegetariana,100-200,1.3,"['Excelente ambiente', 'Buen servicio']"
+JFK,Burger House,Japonesa,200-300,4.8,"['Recomendable', 'Excelente ambiente']"
+JFK,Tacos Campeche,Mexicana,200-300,3.7,"['Excelente ambiente', 'No me gustó']"
+GDL,Sushi World,Vegetariana,300-600,3.7,"['Recomendable', 'Delicioso', 'Excelente ambiente']"
+PDX,Veggie Delight,Mexicana,100-200,3.8,"['Excelente ambiente', 'Buen servicio', 'Buen servicio']"
+GDL,Tacos Campeche,Japonesa,200-300,2.4,"['Delicioso', 'No me gustó']"
+LAX,Sushi World,Mexicana,200-300,4.4,"['Excelente ambiente', 'Recomendable']"
+PDX,Tacos Campeche,Japonesa,300-600,3.0,"['Poco caro, pero son rápidos', 'Recomendable', 'Poco caro, pero son rápidos']"
+JFK,Sushi World,Vegetariana,300-600,4.3,"['Recomendable', 'Buen servicio']"
+PDX,Pasta Paradise,Vegetariana,100-200,3.2,"['Recomendable', 'No me gustó', 'Delicioso']"
+PDX,Sushi World,Italiana,300-600,3.3,"['Buen servicio', 'Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Mexicana,100-200,3.2,"['Delicioso', 'Poco caro, pero son rápidos', 'Buen servicio']"
+LAX,Sushi World,Americana,600-900,3.2,"['No me gustó', 'Recomendable']"
+GDL,Veggie Delight,Americana,600-900,2.7,"['Buen servicio', 'Buen servicio']"
+GDL,Sushi World,Vegetariana,200-300,2.8,['Recomendable']
+LAX,Burger House,Italiana,300-600,1.7,"['Recomendable', 'Excelente ambiente']"
+GDL,Sushi World,Vegetariana,100-200,3.3,"['Excelente ambiente', 'Excelente ambiente', 'Excelente ambiente']"
+JFK,Veggie Delight,Americana,200-300,2.4,"['Delicioso', 'Delicioso']"
+JFK,Burger House,Americana,600-900,1.7,['Recomendable']
+SJC,Burger House,Italiana,300-600,1.8,"['Delicioso', 'Recomendable']"
+GDL,Sushi World,Vegetariana,200-300,1.6,"['Excelente ambiente', 'Poco caro, pero son rápidos', 'Delicioso']"
+JFK,Sushi World,Japonesa,200-300,3.7,"['Poco caro, pero son rápidos', 'Buen servicio', 'Excelente ambiente']"
+PDX,Sushi World,Americana,200-300,5.0,"['Recomendable', 'Excelente ambiente', 'Delicioso']"
+LAX,Burger House,Americana,300-600,2.4,['Buen servicio']
+JFK,Tacos Campeche,Vegetariana,300-600,3.2,"['Delicioso', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+GDL,Pasta Paradise,Americana,600-900,1.3,"['Delicioso', 'No me gustó']"
+JFK,Sushi World,Mexicana,300-600,3.0,['Delicioso']
+SJC,Veggie Delight,Japonesa,600-900,3.3,"['No me gustó', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+PDX,Veggie Delight,Italiana,200-300,3.8,"['Recomendable', 'Recomendable', 'Buen servicio']"
+PDX,Burger House,Americana,600-900,4.6,"['Delicioso', 'No me gustó', 'No me gustó']"
+LAX,Burger House,Japonesa,300-600,3.3,"['Buen servicio', 'Recomendable', 'Buen servicio']"
+SJC,Tacos Campeche,Italiana,100-200,4.2,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Recomendable']"
+PDX,Pasta Paradise,Mexicana,600-900,3.8,"['Recomendable', 'Delicioso']"
+LAX,Pasta Paradise,Italiana,200-300,2.1,['Delicioso']
+SJC,Pasta Paradise,Japonesa,300-600,4.4,"['Excelente ambiente', 'No me gustó', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Japonesa,300-600,3.8,"['No me gustó', 'Buen servicio', 'Delicioso']"
+PDX,Pasta Paradise,Americana,600-900,5.0,['No me gustó']
+PDX,Veggie Delight,Japonesa,200-300,3.1,"['Poco caro, pero son rápidos']"
+GDL,Veggie Delight,Japonesa,300-600,4.6,"['Excelente ambiente', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+PDX,Veggie Delight,Japonesa,100-200,4.7,['Excelente ambiente']
+JFK,Sushi World,Mexicana,600-900,1.7,"['Poco caro, pero son rápidos', 'No me gustó', 'Delicioso']"
+PDX,Veggie Delight,Mexicana,300-600,3.4,"['Poco caro, pero son rápidos', 'Buen servicio']"
+PDX,Pasta Paradise,Vegetariana,100-200,2.1,['Buen servicio']
+JFK,Burger House,Vegetariana,100-200,2.8,"['Recomendable', 'Buen servicio']"
+SJC,Sushi World,Italiana,600-900,3.8,"['Excelente ambiente', 'No me gustó']"
+JFK,Burger House,Mexicana,200-300,1.2,"['No me gustó', 'Delicioso', 'Poco caro, pero son rápidos']"
+LAX,Veggie Delight,Americana,600-900,4.1,"['Poco caro, pero son rápidos', 'No me gustó', 'Recomendable']"
+LAX,Tacos Campeche,Mexicana,200-300,1.3,"['Buen servicio', 'Buen servicio']"
+GDL,Tacos Campeche,Italiana,100-200,4.9,"['Poco caro, pero son rápidos', 'No me gustó', 'No me gustó']"
+GDL,Sushi World,Vegetariana,100-200,4.1,['Recomendable']
+GDL,Sushi World,Japonesa,300-600,1.5,"['Delicioso', 'Buen servicio', 'Buen servicio']"
+SJC,Burger House,Vegetariana,100-200,3.4,['No me gustó']
+LAX,Veggie Delight,Mexicana,600-900,5.0,"['Delicioso', 'Buen servicio', 'Poco caro, pero son rápidos']"
+LAX,Burger House,Italiana,100-200,2.1,"['Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Japonesa,100-200,2.7,['Buen servicio']
+PDX,Tacos Campeche,Americana,200-300,2.6,"['Recomendable', 'Buen servicio', 'Recomendable']"
+LAX,Tacos Campeche,Japonesa,100-200,2.8,['Buen servicio']
+JFK,Sushi World,Americana,200-300,2.8,['No me gustó']
+JFK,Tacos Campeche,Japonesa,200-300,3.4,"['Poco caro, pero son rápidos']"
+PDX,Veggie Delight,Americana,200-300,4.6,"['No me gustó', 'Excelente ambiente']"
+LAX,Sushi World,Italiana,300-600,2.6,"['Buen servicio', 'Buen servicio', 'Buen servicio']"
+JFK,Burger House,Mexicana,300-600,4.9,['No me gustó']
+LAX,Burger House,Mexicana,300-600,4.4,"['No me gustó', 'Delicioso']"
+JFK,Veggie Delight,Vegetariana,600-900,4.7,['Excelente ambiente']
+LAX,Pasta Paradise,Japonesa,200-300,2.6,['Delicioso']
+GDL,Pasta Paradise,Americana,100-200,4.2,['No me gustó']
+JFK,Burger House,Vegetariana,100-200,1.4,"['No me gustó', 'Buen servicio', 'Excelente ambiente']"
+LAX,Burger House,Mexicana,300-600,3.0,['No me gustó']
+SJC,Veggie Delight,Japonesa,200-300,1.3,"['Buen servicio', 'Delicioso', 'Recomendable']"
+JFK,Tacos Campeche,Japonesa,600-900,1.5,"['Recomendable', 'No me gustó']"
+JFK,Tacos Campeche,Mexicana,300-600,4.1,"['Poco caro, pero son rápidos', 'No me gustó', 'No me gustó']"
+SJC,Burger House,Japonesa,300-600,4.3,"['Delicioso', 'Buen servicio']"
+PDX,Sushi World,Italiana,200-300,3.8,['Recomendable']
+LAX,Burger House,Italiana,100-200,4.2,"['Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Americana,300-600,1.3,['No me gustó']
+LAX,Sushi World,Mexicana,300-600,2.9,"['Recomendable', 'No me gustó']"
+GDL,Burger House,Vegetariana,300-600,2.9,['Delicioso']
+PDX,Sushi World,Mexicana,200-300,1.4,"['Recomendable', 'Buen servicio']"
+SJC,Sushi World,Japonesa,300-600,3.1,"['Poco caro, pero son rápidos', 'Excelente ambiente']"
+LAX,Veggie Delight,Americana,600-900,1.0,"['Delicioso', 'Buen servicio', 'Buen servicio']"
+SJC,Burger House,Italiana,300-600,1.0,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Delicioso']"
+LAX,Pasta Paradise,Italiana,600-900,2.9,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Vegetariana,300-600,4.8,['Buen servicio']
+JFK,Sushi World,Italiana,600-900,2.7,['Recomendable']
+JFK,Burger House,Mexicana,100-200,3.5,"['Excelente ambiente', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+JFK,Burger House,Americana,600-900,2.3,"['Recomendable', 'Buen servicio']"
+LAX,Veggie Delight,Mexicana,200-300,3.6,"['Excelente ambiente', 'Recomendable', 'No me gustó']"
+PDX,Sushi World,Japonesa,600-900,1.8,"['Delicioso', 'Recomendable']"
+LAX,Burger House,Italiana,200-300,3.8,"['Delicioso', 'Recomendable']"
+SJC,Veggie Delight,Americana,200-300,3.6,"['Buen servicio', 'Excelente ambiente']"
+LAX,Tacos Campeche,Japonesa,200-300,4.1,"['Recomendable', 'Buen servicio']"
+SJC,Sushi World,Italiana,100-200,4.0,"['Poco caro, pero son rápidos']"
+JFK,Burger House,Mexicana,300-600,4.7,['Delicioso']
+JFK,Burger House,Mexicana,200-300,1.2,"['Buen servicio', 'Delicioso']"
+GDL,Burger House,Mexicana,200-300,4.0,"['Poco caro, pero son rápidos', 'Recomendable', 'Recomendable']"
+PDX,Veggie Delight,Italiana,600-900,3.8,"['Delicioso', 'No me gustó']"
+SJC,Veggie Delight,Italiana,200-300,1.3,"['Excelente ambiente', 'Excelente ambiente']"
+PDX,Pasta Paradise,Mexicana,600-900,1.2,"['Poco caro, pero son rápidos', 'Excelente ambiente', 'Excelente ambiente']"
+PDX,Sushi World,Mexicana,200-300,4.1,['Recomendable']
+LAX,Sushi World,Mexicana,200-300,1.1,"['Poco caro, pero son rápidos', 'Buen servicio', 'No me gustó']"
+JFK,Pasta Paradise,Italiana,600-900,1.1,"['Recomendable', 'Delicioso', 'Delicioso']"
+JFK,Burger House,Japonesa,200-300,4.3,"['Poco caro, pero son rápidos']"
+JFK,Sushi World,Italiana,100-200,2.9,['Buen servicio']
+LAX,Burger House,Mexicana,600-900,4.7,"['Poco caro, pero son rápidos', 'Delicioso', 'Poco caro, pero son rápidos']"
+LAX,Tacos Campeche,Mexicana,300-600,4.6,"['Delicioso', 'No me gustó', 'Excelente ambiente']"
+SJC,Pasta Paradise,Mexicana,300-600,4.8,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+PDX,Veggie Delight,Mexicana,200-300,1.7,['Recomendable']
+SJC,Tacos Campeche,Vegetariana,200-300,3.5,['Recomendable']
+GDL,Burger House,Mexicana,300-600,4.6,"['Poco caro, pero son rápidos']"
+GDL,Sushi World,Japonesa,100-200,4.6,"['Delicioso', 'Recomendable']"
+SJC,Veggie Delight,Italiana,100-200,3.8,"['Delicioso', 'Recomendable', 'Delicioso']"
+LAX,Pasta Paradise,Italiana,300-600,2.4,['Recomendable']
+LAX,Pasta Paradise,Japonesa,600-900,2.4,"['Excelente ambiente', 'No me gustó']"
+JFK,Burger House,Vegetariana,200-300,4.0,['Excelente ambiente']
+LAX,Sushi World,Americana,600-900,1.9,"['No me gustó', 'Buen servicio']"
+PDX,Veggie Delight,Italiana,200-300,3.2,['Recomendable']
+GDL,Burger House,Vegetariana,200-300,3.3,"['Poco caro, pero son rápidos', 'Delicioso']"
+PDX,Sushi World,Vegetariana,200-300,4.7,"['Buen servicio', 'Poco caro, pero son rápidos']"
+LAX,Sushi World,Japonesa,300-600,4.8,"['Excelente ambiente', 'Excelente ambiente']"
+PDX,Tacos Campeche,Mexicana,200-300,5.0,"['Poco caro, pero son rápidos']"
+GDL,Pasta Paradise,Italiana,600-900,3.1,"['Recomendable', 'Delicioso']"
+JFK,Pasta Paradise,Americana,100-200,1.7,"['Buen servicio', 'Excelente ambiente', 'Recomendable']"
+GDL,Burger House,Americana,600-900,4.3,"['No me gustó', 'Poco caro, pero son rápidos', 'No me gustó']"
+GDL,Sushi World,Vegetariana,200-300,3.8,"['Buen servicio', 'Delicioso', 'Buen servicio']"
+PDX,Sushi World,Mexicana,200-300,4.2,"['Delicioso', 'No me gustó', 'Poco caro, pero son rápidos']"
+PDX,Pasta Paradise,Vegetariana,200-300,2.7,['Recomendable']
+PDX,Burger House,Italiana,100-200,3.7,"['Recomendable', 'Delicioso']"
+SJC,Veggie Delight,Vegetariana,100-200,1.1,"['No me gustó', 'Delicioso']"
+LAX,Veggie Delight,Italiana,100-200,1.2,['Excelente ambiente']
+GDL,Sushi World,Mexicana,100-200,2.8,"['Delicioso', 'No me gustó']"
+GDL,Burger House,Vegetariana,200-300,4.0,"['Delicioso', 'No me gustó']"
+GDL,Sushi World,Vegetariana,600-900,2.6,"['Buen servicio', 'Excelente ambiente', 'No me gustó']"
+SJC,Pasta Paradise,Americana,100-200,1.5,"['No me gustó', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+GDL,Pasta Paradise,Americana,100-200,4.6,"['Poco caro, pero son rápidos', 'Buen servicio']"
+PDX,Veggie Delight,Mexicana,200-300,3.0,"['Excelente ambiente', 'Buen servicio', 'Poco caro, pero son rápidos']"
+LAX,Burger House,Japonesa,600-900,2.8,['Excelente ambiente']
+SJC,Sushi World,Americana,100-200,1.9,['Recomendable']
+SJC,Sushi World,Japonesa,100-200,4.4,"['Excelente ambiente', 'Recomendable']"
+PDX,Tacos Campeche,Italiana,300-600,4.5,['No me gustó']
+GDL,Burger House,Vegetariana,600-900,2.8,"['Delicioso', 'Delicioso', 'Buen servicio']"
+GDL,Burger House,Americana,600-900,2.8,['No me gustó']
+PDX,Sushi World,Italiana,600-900,1.4,"['Poco caro, pero son rápidos', 'Delicioso', 'Delicioso']"
+GDL,Pasta Paradise,Americana,200-300,4.1,"['Excelente ambiente', 'Recomendable']"
+GDL,Pasta Paradise,Vegetariana,300-600,2.4,['No me gustó']
+PDX,Burger House,Mexicana,200-300,3.8,['Recomendable']
+SJC,Pasta Paradise,Americana,200-300,1.1,"['Recomendable', 'Excelente ambiente']"
+PDX,Burger House,Italiana,200-300,3.3,['Excelente ambiente']
+GDL,Sushi World,Mexicana,200-300,3.2,"['Excelente ambiente', 'Delicioso']"
+GDL,Burger House,Americana,200-300,2.9,"['Poco caro, pero son rápidos', 'Buen servicio']"
+SJC,Sushi World,Vegetariana,100-200,1.2,"['Delicioso', 'Poco caro, pero son rápidos']"
+GDL,Sushi World,Americana,200-300,1.6,"['Buen servicio', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+PDX,Burger House,Italiana,200-300,4.5,['No me gustó']
+PDX,Pasta Paradise,Japonesa,600-900,3.3,"['Buen servicio', 'Recomendable', 'Buen servicio']"
+JFK,Sushi World,Japonesa,300-600,2.2,"['Recomendable', 'Buen servicio', 'Poco caro, pero son rápidos']"
+GDL,Pasta Paradise,Vegetariana,200-300,2.2,['Buen servicio']
+PDX,Tacos Campeche,Americana,100-200,2.6,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Delicioso']"
+LAX,Pasta Paradise,Vegetariana,100-200,3.7,['Recomendable']
+SJC,Veggie Delight,Mexicana,100-200,3.0,['Excelente ambiente']
+SJC,Burger House,Japonesa,100-200,4.7,"['Recomendable', 'Delicioso']"
+PDX,Tacos Campeche,Japonesa,300-600,1.3,"['Recomendable', 'Delicioso']"
+SJC,Veggie Delight,Japonesa,300-600,3.1,"['Recomendable', 'Delicioso', 'Recomendable']"
+JFK,Veggie Delight,Americana,100-200,2.1,"['No me gustó', 'Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Vegetariana,600-900,1.8,['Buen servicio']
+GDL,Veggie Delight,Vegetariana,100-200,4.6,['Buen servicio']
+LAX,Burger House,Italiana,100-200,4.2,"['Buen servicio', 'Buen servicio', 'Delicioso']"
+LAX,Burger House,Vegetariana,300-600,3.5,"['Delicioso', 'Buen servicio']"
+SJC,Tacos Campeche,Japonesa,300-600,1.4,['Recomendable']
+PDX,Veggie Delight,Americana,200-300,2.9,"['Poco caro, pero son rápidos']"
+LAX,Burger House,Japonesa,200-300,1.8,"['Buen servicio', 'Excelente ambiente']"
+GDL,Pasta Paradise,Mexicana,200-300,3.4,"['Recomendable', 'Excelente ambiente', 'Recomendable']"
+JFK,Pasta Paradise,Japonesa,600-900,3.6,"['Buen servicio', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+JFK,Sushi World,Mexicana,300-600,3.7,"['Excelente ambiente', 'Poco caro, pero son rápidos', 'Delicioso']"
+JFK,Burger House,Italiana,100-200,3.1,"['Poco caro, pero son rápidos']"
+JFK,Veggie Delight,Japonesa,600-900,4.1,['No me gustó']
+PDX,Tacos Campeche,Mexicana,100-200,2.4,"['Delicioso', 'No me gustó']"
+GDL,Sushi World,Americana,200-300,2.6,['Delicioso']
+PDX,Pasta Paradise,Japonesa,300-600,2.1,"['No me gustó', 'Buen servicio', 'Recomendable']"
+PDX,Tacos Campeche,Americana,600-900,2.2,"['Delicioso', 'No me gustó']"
+SJC,Burger House,Americana,100-200,4.5,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+GDL,Burger House,Italiana,200-300,1.1,"['Poco caro, pero son rápidos', 'Buen servicio']"
+JFK,Veggie Delight,Americana,600-900,1.6,"['Buen servicio', 'Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Japonesa,200-300,3.3,['Delicioso']
+SJC,Veggie Delight,Italiana,600-900,3.8,"['Recomendable', 'Poco caro, pero son rápidos']"
+PDX,Pasta Paradise,Mexicana,100-200,4.8,"['No me gustó', 'No me gustó', 'Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Italiana,600-900,3.6,"['Excelente ambiente', 'Buen servicio']"
+PDX,Sushi World,Italiana,300-600,2.7,"['Recomendable', 'Excelente ambiente']"
+LAX,Tacos Campeche,Vegetariana,100-200,3.4,['Buen servicio']
+SJC,Burger House,Italiana,600-900,4.8,"['Buen servicio', 'Poco caro, pero son rápidos']"
+GDL,Pasta Paradise,Vegetariana,200-300,2.9,"['Recomendable', 'Excelente ambiente', 'Buen servicio']"
+JFK,Pasta Paradise,Americana,600-900,1.8,"['Recomendable', 'No me gustó', 'Delicioso']"
+LAX,Burger House,Japonesa,600-900,2.8,"['Poco caro, pero son rápidos', 'Buen servicio', 'No me gustó']"
+JFK,Tacos Campeche,Americana,200-300,4.0,['Excelente ambiente']
+JFK,Tacos Campeche,Americana,300-600,4.8,"['Recomendable', 'Recomendable']"
+SJC,Pasta Paradise,Japonesa,200-300,2.4,['Excelente ambiente']
+GDL,Tacos Campeche,Vegetariana,600-900,4.9,"['Recomendable', 'Buen servicio']"
+LAX,Burger House,Vegetariana,200-300,1.8,"['Poco caro, pero son rápidos', 'Recomendable']"
+SJC,Burger House,Italiana,600-900,2.0,"['Excelente ambiente', 'No me gustó', 'Delicioso']"
+SJC,Tacos Campeche,Mexicana,600-900,1.8,"['Delicioso', 'Recomendable', 'Excelente ambiente']"
+JFK,Pasta Paradise,Vegetariana,300-600,4.7,"['Excelente ambiente', 'Excelente ambiente']"
+GDL,Tacos Campeche,Italiana,600-900,2.8,['No me gustó']
+SJC,Burger House,Mexicana,600-900,5.0,"['Buen servicio', 'No me gustó']"
+SJC,Burger House,Vegetariana,600-900,5.0,"['Buen servicio', 'Recomendable']"
+GDL,Veggie Delight,Mexicana,100-200,1.3,"['Recomendable', 'Recomendable', 'Excelente ambiente']"
+JFK,Sushi World,Americana,300-600,4.9,['Recomendable']
+PDX,Sushi World,Mexicana,300-600,2.8,"['Buen servicio', 'Excelente ambiente']"
+JFK,Tacos Campeche,Americana,200-300,3.3,['Excelente ambiente']
+SJC,Pasta Paradise,Italiana,600-900,1.4,['Delicioso']
+JFK,Veggie Delight,Mexicana,300-600,1.4,['Delicioso']
+SJC,Pasta Paradise,Japonesa,600-900,1.5,"['No me gustó', 'Buen servicio', 'No me gustó']"
+LAX,Sushi World,Americana,300-600,4.7,"['No me gustó', 'Excelente ambiente']"
+JFK,Sushi World,Japonesa,200-300,4.8,['Excelente ambiente']
+LAX,Burger House,Japonesa,100-200,4.6,['Buen servicio']
+GDL,Tacos Campeche,Vegetariana,300-600,2.6,['Excelente ambiente']
+GDL,Pasta Paradise,Japonesa,600-900,4.1,"['Excelente ambiente', 'Excelente ambiente']"
+LAX,Burger House,Mexicana,300-600,4.3,"['Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Mexicana,300-600,3.8,"['No me gustó', 'Buen servicio', 'Buen servicio']"
+GDL,Tacos Campeche,Americana,300-600,2.8,['No me gustó']
+GDL,Sushi World,Vegetariana,100-200,1.3,['Recomendable']
+GDL,Burger House,Japonesa,200-300,4.7,"['No me gustó', 'Recomendable', 'Delicioso']"
+JFK,Sushi World,Italiana,100-200,2.7,"['Delicioso', 'Buen servicio']"
+SJC,Tacos Campeche,Japonesa,100-200,2.5,['Delicioso']
+PDX,Pasta Paradise,Vegetariana,600-900,2.9,['Delicioso']
+GDL,Tacos Campeche,Japonesa,600-900,4.2,['Delicioso']
+LAX,Pasta Paradise,Mexicana,200-300,4.8,['Recomendable']
+SJC,Sushi World,Mexicana,300-600,3.8,"['No me gustó', 'Excelente ambiente', 'Buen servicio']"
+GDL,Veggie Delight,Mexicana,200-300,2.4,"['Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Vegetariana,100-200,3.2,"['No me gustó', 'No me gustó']"
+JFK,Pasta Paradise,Japonesa,200-300,2.6,"['Excelente ambiente', 'Delicioso', 'Excelente ambiente']"
+SJC,Sushi World,Americana,200-300,3.1,"['No me gustó', 'Excelente ambiente']"
+GDL,Tacos Campeche,Mexicana,600-900,4.7,"['Poco caro, pero son rápidos', 'Recomendable']"
+SJC,Tacos Campeche,Japonesa,600-900,4.2,"['Poco caro, pero son rápidos', 'Delicioso']"
+JFK,Veggie Delight,Mexicana,100-200,4.4,['Delicioso']
+SJC,Sushi World,Mexicana,100-200,2.3,['Delicioso']
+SJC,Burger House,Americana,300-600,4.5,['No me gustó']
+GDL,Burger House,Vegetariana,600-900,3.6,"['Delicioso', 'Excelente ambiente']"
+GDL,Pasta Paradise,Vegetariana,100-200,3.3,"['Buen servicio', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+SJC,Tacos Campeche,Americana,300-600,3.5,"['Buen servicio', 'No me gustó', 'Buen servicio']"
+LAX,Veggie Delight,Americana,100-200,3.2,['Excelente ambiente']
+LAX,Sushi World,Vegetariana,300-600,4.4,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+LAX,Veggie Delight,Americana,100-200,2.5,"['Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Vegetariana,200-300,4.8,"['No me gustó', 'Buen servicio', 'Excelente ambiente']"
+PDX,Sushi World,Americana,300-600,4.3,"['Excelente ambiente', 'Recomendable', 'Delicioso']"
+LAX,Pasta Paradise,Americana,200-300,2.9,"['Recomendable', 'Poco caro, pero son rápidos', 'Delicioso']"
+JFK,Sushi World,Americana,600-900,4.8,"['Poco caro, pero son rápidos']"
+LAX,Veggie Delight,Italiana,200-300,2.4,['No me gustó']
+GDL,Burger House,Vegetariana,200-300,4.8,"['Buen servicio', 'Excelente ambiente']"
+GDL,Pasta Paradise,Mexicana,600-900,3.5,"['Buen servicio', 'Delicioso', 'Recomendable']"
+LAX,Sushi World,Vegetariana,200-300,4.2,"['Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Americana,100-200,2.2,"['Poco caro, pero son rápidos', 'Buen servicio']"
+PDX,Veggie Delight,Americana,200-300,3.6,['Recomendable']
+JFK,Burger House,Mexicana,100-200,4.5,"['Excelente ambiente', 'Poco caro, pero son rápidos', 'Delicioso']"
+JFK,Tacos Campeche,Americana,200-300,2.2,"['Buen servicio', 'Buen servicio', 'Buen servicio']"
+PDX,Burger House,Vegetariana,300-600,3.5,"['Delicioso', 'Buen servicio']"
+JFK,Tacos Campeche,Mexicana,600-900,1.1,"['Delicioso', 'Excelente ambiente', 'No me gustó']"
+JFK,Tacos Campeche,Vegetariana,100-200,3.7,['Excelente ambiente']
+GDL,Sushi World,Vegetariana,200-300,1.1,"['Delicioso', 'Excelente ambiente']"
+JFK,Veggie Delight,Mexicana,300-600,4.3,"['Poco caro, pero son rápidos', 'Excelente ambiente']"
+LAX,Tacos Campeche,Italiana,300-600,1.9,"['Recomendable', 'Excelente ambiente', 'Delicioso']"
+GDL,Pasta Paradise,Americana,200-300,5.0,"['Recomendable', 'Recomendable', 'Poco caro, pero son rápidos']"
+GDL,Veggie Delight,Italiana,600-900,1.1,['Excelente ambiente']
+GDL,Tacos Campeche,Italiana,100-200,1.5,"['Poco caro, pero son rápidos', 'No me gustó']"
+LAX,Pasta Paradise,Vegetariana,300-600,4.9,"['Buen servicio', 'Buen servicio', 'Excelente ambiente']"
+LAX,Sushi World,Mexicana,300-600,2.5,"['Poco caro, pero son rápidos']"
+LAX,Sushi World,Americana,200-300,1.0,['Excelente ambiente']
+LAX,Pasta Paradise,Mexicana,600-900,4.8,"['Buen servicio', 'No me gustó', 'Poco caro, pero son rápidos']"
+GDL,Sushi World,Italiana,200-300,1.2,['Recomendable']
+PDX,Veggie Delight,Mexicana,100-200,2.8,['Buen servicio']
+PDX,Burger House,Americana,300-600,2.6,"['Recomendable', 'Poco caro, pero son rápidos', 'Excelente ambiente']"
+SJC,Burger House,Japonesa,600-900,2.3,"['Delicioso', 'Buen servicio']"
+PDX,Sushi World,Mexicana,200-300,1.7,"['No me gustó', 'Buen servicio']"
+SJC,Tacos Campeche,Americana,300-600,4.5,"['No me gustó', 'Delicioso']"
+JFK,Pasta Paradise,Japonesa,600-900,1.8,['No me gustó']
+PDX,Sushi World,Americana,300-600,3.0,"['Delicioso', 'Excelente ambiente']"
+SJC,Sushi World,Americana,100-200,2.1,['Buen servicio']
+PDX,Pasta Paradise,Mexicana,100-200,1.1,"['Recomendable', 'Excelente ambiente']"
+LAX,Pasta Paradise,Japonesa,600-900,2.3,['Recomendable']
+JFK,Pasta Paradise,Japonesa,600-900,3.3,"['Excelente ambiente', 'Recomendable', 'Excelente ambiente']"
+PDX,Veggie Delight,Japonesa,600-900,1.8,"['Buen servicio', 'Recomendable']"
+PDX,Veggie Delight,Americana,100-200,4.5,"['Recomendable', 'Delicioso']"
+JFK,Veggie Delight,Americana,200-300,3.9,"['No me gustó', 'Excelente ambiente']"
+GDL,Tacos Campeche,Mexicana,100-200,3.4,['Recomendable']
+LAX,Pasta Paradise,Japonesa,600-900,4.7,"['Excelente ambiente', 'Excelente ambiente', 'Delicioso']"
+SJC,Tacos Campeche,Mexicana,100-200,1.7,['No me gustó']
+LAX,Sushi World,Japonesa,600-900,2.4,['Excelente ambiente']
+SJC,Tacos Campeche,Vegetariana,300-600,1.5,"['Poco caro, pero son rápidos', 'No me gustó']"
+GDL,Veggie Delight,Italiana,200-300,3.5,"['Recomendable', 'No me gustó', 'Recomendable']"
+PDX,Sushi World,Vegetariana,100-200,1.8,"['Delicioso', 'Buen servicio']"
+LAX,Tacos Campeche,Mexicana,200-300,2.2,"['Buen servicio', 'Delicioso']"
+SJC,Tacos Campeche,Italiana,600-900,1.4,"['Delicioso', 'No me gustó', 'Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Vegetariana,200-300,3.8,"['Delicioso', 'Excelente ambiente']"
+GDL,Burger House,Italiana,300-600,4.6,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Japonesa,100-200,4.1,"['Recomendable', 'Recomendable', 'No me gustó']"
+JFK,Tacos Campeche,Americana,100-200,4.2,"['Poco caro, pero son rápidos']"
+PDX,Pasta Paradise,Japonesa,200-300,2.9,['Delicioso']
+SJC,Pasta Paradise,Italiana,100-200,5.0,['Recomendable']
+GDL,Sushi World,Mexicana,300-600,1.6,"['Recomendable', 'Delicioso', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Vegetariana,600-900,2.9,"['Delicioso', 'No me gustó', 'Excelente ambiente']"
+SJC,Sushi World,Italiana,600-900,2.5,['No me gustó']
+GDL,Veggie Delight,Americana,600-900,1.5,['Buen servicio']
+GDL,Pasta Paradise,Vegetariana,600-900,2.4,"['Poco caro, pero son rápidos', 'Recomendable']"
+LAX,Burger House,Italiana,300-600,4.2,"['Recomendable', 'Delicioso', 'Recomendable']"
+JFK,Veggie Delight,Vegetariana,200-300,3.3,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+GDL,Burger House,Vegetariana,100-200,2.9,"['Excelente ambiente', 'Excelente ambiente', 'Delicioso']"
+JFK,Veggie Delight,Italiana,200-300,4.3,['Excelente ambiente']
+SJC,Burger House,Americana,300-600,3.0,"['No me gustó', 'Excelente ambiente']"
+SJC,Pasta Paradise,Italiana,100-200,4.8,"['Delicioso', 'Recomendable']"
+JFK,Burger House,Italiana,200-300,4.4,['Buen servicio']
+JFK,Pasta Paradise,Vegetariana,100-200,2.2,"['Recomendable', 'Excelente ambiente', 'Poco caro, pero son rápidos']"
+PDX,Sushi World,Italiana,600-900,2.6,['No me gustó']
+LAX,Tacos Campeche,Japonesa,300-600,4.8,"['No me gustó', 'No me gustó']"
+JFK,Tacos Campeche,Mexicana,600-900,1.2,['Delicioso']
+PDX,Pasta Paradise,Americana,100-200,4.8,"['No me gustó', 'Poco caro, pero son rápidos', 'Recomendable']"
+GDL,Tacos Campeche,Vegetariana,200-300,3.4,"['Delicioso', 'Delicioso']"
+LAX,Burger House,Mexicana,100-200,2.5,"['No me gustó', 'Delicioso']"
+GDL,Burger House,Vegetariana,100-200,2.1,"['No me gustó', 'Buen servicio', 'Poco caro, pero son rápidos']"
+JFK,Veggie Delight,Vegetariana,300-600,4.2,"['Poco caro, pero son rápidos', 'Recomendable', 'Poco caro, pero son rápidos']"
+GDL,Pasta Paradise,Americana,100-200,2.6,['Recomendable']
+LAX,Burger House,Japonesa,200-300,2.4,"['No me gustó', 'Buen servicio']"
+SJC,Pasta Paradise,Italiana,100-200,3.1,"['Delicioso', 'Excelente ambiente', 'No me gustó']"
+GDL,Sushi World,Italiana,300-600,2.0,"['Poco caro, pero son rápidos', 'Delicioso']"
+JFK,Tacos Campeche,Japonesa,300-600,2.9,"['Delicioso', 'Buen servicio', 'Excelente ambiente']"
+PDX,Burger House,Mexicana,100-200,1.9,['Excelente ambiente']
+JFK,Burger House,Japonesa,600-900,1.4,"['Poco caro, pero son rápidos', 'Recomendable']"
+SJC,Veggie Delight,Japonesa,600-900,4.5,"['Excelente ambiente', 'Recomendable']"
+PDX,Sushi World,Vegetariana,200-300,2.9,"['Buen servicio', 'Excelente ambiente']"
+SJC,Tacos Campeche,Italiana,300-600,2.9,"['Poco caro, pero son rápidos', 'Recomendable']"
+JFK,Burger House,Mexicana,200-300,4.2,"['Buen servicio', 'Delicioso']"
+PDX,Pasta Paradise,Vegetariana,200-300,1.4,"['Delicioso', 'No me gustó', 'Excelente ambiente']"
+SJC,Pasta Paradise,Americana,300-600,2.4,"['Recomendable', 'No me gustó']"
+GDL,Tacos Campeche,Japonesa,200-300,3.1,"['Poco caro, pero son rápidos', 'Recomendable', 'Poco caro, pero son rápidos']"
+SJC,Burger House,Vegetariana,600-900,1.8,"['Buen servicio', 'Recomendable', 'Buen servicio']"
+PDX,Pasta Paradise,Americana,200-300,1.7,['Delicioso']
+PDX,Veggie Delight,Vegetariana,600-900,4.6,"['Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Vegetariana,600-900,3.4,['Delicioso']
+GDL,Pasta Paradise,Americana,300-600,4.7,"['No me gustó', 'Delicioso', 'Excelente ambiente']"
+LAX,Tacos Campeche,Italiana,100-200,3.8,"['Recomendable', 'Delicioso', 'Recomendable']"
+SJC,Burger House,Americana,600-900,4.2,"['Delicioso', 'Buen servicio', 'Poco caro, pero son rápidos']"
+LAX,Veggie Delight,Mexicana,100-200,1.8,"['Buen servicio', 'Excelente ambiente', 'Recomendable']"
+GDL,Tacos Campeche,Japonesa,600-900,1.6,"['No me gustó', 'Delicioso', 'Excelente ambiente']"
+PDX,Tacos Campeche,Italiana,300-600,1.2,"['Delicioso', 'No me gustó']"
+GDL,Burger House,Mexicana,100-200,4.7,"['Buen servicio', 'Buen servicio', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Vegetariana,200-300,2.8,['Buen servicio']
+LAX,Tacos Campeche,Mexicana,600-900,4.6,"['Poco caro, pero son rápidos', 'Delicioso']"
+JFK,Burger House,Japonesa,100-200,3.7,"['Excelente ambiente', 'Excelente ambiente']"
+LAX,Pasta Paradise,Japonesa,300-600,2.8,"['No me gustó', 'Recomendable', 'Poco caro, pero son rápidos']"
+JFK,Sushi World,Italiana,200-300,1.3,['No me gustó']
+LAX,Tacos Campeche,Americana,600-900,4.8,"['Excelente ambiente', 'Recomendable', 'Delicioso']"
+JFK,Sushi World,Japonesa,200-300,1.2,"['Delicioso', 'Buen servicio']"
+GDL,Veggie Delight,Italiana,100-200,4.7,"['Poco caro, pero son rápidos', 'Delicioso', 'Delicioso']"
+PDX,Sushi World,Americana,200-300,1.2,"['Recomendable', 'No me gustó']"
+JFK,Burger House,Vegetariana,200-300,1.4,"['Poco caro, pero son rápidos']"
+LAX,Sushi World,Americana,200-300,2.2,['Buen servicio']
+PDX,Tacos Campeche,Vegetariana,200-300,3.0,"['Recomendable', 'Buen servicio', 'Recomendable']"
+PDX,Veggie Delight,Vegetariana,200-300,3.2,"['Poco caro, pero son rápidos']"
+SJC,Burger House,Japonesa,600-900,3.6,"['Buen servicio', 'No me gustó']"
+PDX,Burger House,Italiana,200-300,2.9,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Buen servicio']"
+GDL,Tacos Campeche,Vegetariana,300-600,2.8,['No me gustó']
+SJC,Pasta Paradise,Vegetariana,100-200,1.8,"['Delicioso', 'Delicioso', 'Excelente ambiente']"
+LAX,Burger House,Vegetariana,600-900,4.5,"['Recomendable', 'Poco caro, pero son rápidos', 'Recomendable']"
+SJC,Burger House,Americana,600-900,4.7,['No me gustó']
+GDL,Sushi World,Vegetariana,100-200,2.6,"['Recomendable', 'Delicioso']"
+LAX,Tacos Campeche,Japonesa,300-600,3.3,"['Poco caro, pero son rápidos', 'Delicioso']"
+PDX,Sushi World,Vegetariana,600-900,1.9,"['Poco caro, pero son rápidos', 'No me gustó', 'Recomendable']"
+GDL,Pasta Paradise,Mexicana,600-900,2.6,"['Buen servicio', 'Excelente ambiente']"
+LAX,Sushi World,Mexicana,600-900,1.8,['Excelente ambiente']
+SJC,Tacos Campeche,Mexicana,100-200,4.1,"['No me gustó', 'Delicioso', 'No me gustó']"
+SJC,Tacos Campeche,Americana,100-200,1.7,['Buen servicio']
+PDX,Tacos Campeche,Mexicana,300-600,4.4,"['Recomendable', 'Excelente ambiente', 'No me gustó']"
+GDL,Pasta Paradise,Mexicana,100-200,3.1,"['No me gustó', 'No me gustó', 'Buen servicio']"
+LAX,Veggie Delight,Japonesa,300-600,2.6,['Recomendable']
+PDX,Tacos Campeche,Americana,300-600,2.9,"['Buen servicio', 'Excelente ambiente']"
+GDL,Pasta Paradise,Vegetariana,300-600,3.6,['No me gustó']
+SJC,Pasta Paradise,Mexicana,100-200,3.7,"['Buen servicio', 'Buen servicio']"
+LAX,Burger House,Mexicana,600-900,2.7,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+LAX,Sushi World,Mexicana,200-300,3.0,"['Recomendable', 'Buen servicio', 'Excelente ambiente']"
+PDX,Burger House,Vegetariana,100-200,1.8,"['Delicioso', 'Poco caro, pero son rápidos', 'Recomendable']"
+SJC,Veggie Delight,Mexicana,200-300,4.8,"['Delicioso', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Italiana,600-900,2.1,['Recomendable']
+JFK,Pasta Paradise,Vegetariana,100-200,1.4,"['Recomendable', 'No me gustó', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Vegetariana,200-300,3.0,"['No me gustó', 'Excelente ambiente', 'Delicioso']"
+JFK,Tacos Campeche,Japonesa,200-300,2.3,['Delicioso']
+JFK,Tacos Campeche,Italiana,200-300,4.1,['Excelente ambiente']
+PDX,Sushi World,Americana,200-300,1.5,"['No me gustó', 'Buen servicio', 'Delicioso']"
+PDX,Pasta Paradise,Americana,100-200,4.4,"['Buen servicio', 'No me gustó', 'Recomendable']"
+GDL,Burger House,Italiana,600-900,3.3,"['Poco caro, pero son rápidos', 'Recomendable']"
+JFK,Tacos Campeche,Mexicana,300-600,2.9,"['Delicioso', 'Poco caro, pero son rápidos']"
+LAX,Tacos Campeche,Italiana,300-600,1.2,"['Delicioso', 'Buen servicio', 'Buen servicio']"
+LAX,Burger House,Japonesa,600-900,4.2,['No me gustó']
+LAX,Pasta Paradise,Americana,600-900,3.6,['Buen servicio']
+GDL,Tacos Campeche,Americana,600-900,4.9,"['No me gustó', 'Buen servicio', 'Recomendable']"
+JFK,Sushi World,Americana,600-900,4.0,"['Recomendable', 'Poco caro, pero son rápidos', 'Recomendable']"
+GDL,Burger House,Vegetariana,300-600,1.2,['Excelente ambiente']
+LAX,Sushi World,Mexicana,100-200,2.4,"['Excelente ambiente', 'Recomendable']"
+SJC,Burger House,Vegetariana,300-600,1.4,"['Excelente ambiente', 'Buen servicio']"
+LAX,Pasta Paradise,Mexicana,300-600,1.6,"['Excelente ambiente', 'Recomendable', 'Buen servicio']"
+LAX,Burger House,Japonesa,300-600,4.9,"['Buen servicio', 'Excelente ambiente']"
+LAX,Burger House,Vegetariana,100-200,2.2,"['Excelente ambiente', 'Delicioso', 'Excelente ambiente']"
+JFK,Pasta Paradise,Japonesa,100-200,1.5,"['Excelente ambiente', 'Recomendable']"
+PDX,Veggie Delight,Japonesa,100-200,3.1,"['Excelente ambiente', 'Delicioso', 'No me gustó']"
+SJC,Veggie Delight,Mexicana,300-600,4.4,"['Recomendable', 'No me gustó']"
+SJC,Veggie Delight,Japonesa,100-200,2.3,"['Excelente ambiente', 'Delicioso', 'No me gustó']"
+PDX,Tacos Campeche,Mexicana,600-900,3.6,"['Delicioso', 'Poco caro, pero son rápidos']"
+SJC,Veggie Delight,Mexicana,100-200,3.2,['Excelente ambiente']
+JFK,Veggie Delight,Italiana,600-900,2.1,"['Excelente ambiente', 'Poco caro, pero son rápidos', 'Delicioso']"
+PDX,Tacos Campeche,Mexicana,300-600,4.2,['Excelente ambiente']
+LAX,Veggie Delight,Americana,200-300,4.1,"['Recomendable', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+JFK,Tacos Campeche,Vegetariana,600-900,1.6,"['Recomendable', 'No me gustó', 'Delicioso']"
+PDX,Sushi World,Italiana,200-300,2.4,['Buen servicio']
+LAX,Tacos Campeche,Vegetariana,600-900,3.1,['Recomendable']
+LAX,Pasta Paradise,Italiana,600-900,4.2,"['No me gustó', 'Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Italiana,200-300,1.8,"['Delicioso', 'Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Mexicana,300-600,4.6,"['Poco caro, pero son rápidos', 'Excelente ambiente']"
+LAX,Burger House,Mexicana,600-900,2.2,"['Recomendable', 'Buen servicio', 'Delicioso']"
+JFK,Sushi World,Japonesa,600-900,3.5,"['Excelente ambiente', 'No me gustó']"
+PDX,Sushi World,Japonesa,100-200,5.0,"['Poco caro, pero son rápidos']"
+JFK,Sushi World,Italiana,100-200,1.3,"['Recomendable', 'Recomendable', 'Excelente ambiente']"
+PDX,Sushi World,Mexicana,100-200,2.9,"['Poco caro, pero son rápidos', 'Recomendable', 'Excelente ambiente']"
+JFK,Veggie Delight,Italiana,300-600,1.8,"['No me gustó', 'No me gustó']"
+GDL,Sushi World,Mexicana,200-300,1.6,"['Buen servicio', 'No me gustó']"
+SJC,Tacos Campeche,Vegetariana,300-600,3.3,"['Recomendable', 'No me gustó', 'Delicioso']"
+LAX,Burger House,Japonesa,300-600,3.0,['Delicioso']
+SJC,Veggie Delight,Italiana,200-300,1.7,"['No me gustó', 'Recomendable']"
+SJC,Sushi World,Mexicana,600-900,2.8,"['Buen servicio', 'Recomendable']"
+JFK,Pasta Paradise,Americana,300-600,1.6,"['Excelente ambiente', 'Delicioso', 'Poco caro, pero son rápidos']"
+SJC,Pasta Paradise,Vegetariana,600-900,2.4,"['No me gustó', 'Recomendable']"
+GDL,Veggie Delight,Americana,600-900,1.6,['No me gustó']
+PDX,Tacos Campeche,Japonesa,100-200,2.6,"['Buen servicio', 'Excelente ambiente']"
+SJC,Veggie Delight,Americana,200-300,1.5,"['Delicioso', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+JFK,Pasta Paradise,Vegetariana,100-200,3.3,['Recomendable']
+SJC,Veggie Delight,Vegetariana,100-200,1.9,"['Delicioso', 'No me gustó']"
+SJC,Veggie Delight,Vegetariana,300-600,3.9,"['No me gustó', 'Delicioso', 'Excelente ambiente']"
+SJC,Pasta Paradise,Italiana,200-300,2.4,"['Buen servicio', 'No me gustó', 'Delicioso']"
+SJC,Sushi World,Americana,100-200,2.0,"['Delicioso', 'Delicioso', 'Buen servicio']"
+LAX,Burger House,Americana,300-600,1.5,['Buen servicio']
+SJC,Sushi World,Vegetariana,200-300,4.2,"['Poco caro, pero son rápidos']"
+SJC,Tacos Campeche,Italiana,100-200,1.8,['Delicioso']
+PDX,Sushi World,Mexicana,300-600,1.3,"['Delicioso', 'No me gustó']"
+PDX,Sushi World,Japonesa,100-200,2.9,['Buen servicio']
+GDL,Sushi World,Americana,100-200,4.8,"['Delicioso', 'No me gustó', 'Excelente ambiente']"
+JFK,Sushi World,Italiana,100-200,4.4,"['No me gustó', 'Excelente ambiente', 'Buen servicio']"
+LAX,Burger House,Mexicana,600-900,1.6,"['Delicioso', 'No me gustó', 'No me gustó']"
+LAX,Pasta Paradise,Americana,300-600,2.8,"['Delicioso', 'Buen servicio', 'Recomendable']"
+GDL,Sushi World,Vegetariana,100-200,2.5,"['Delicioso', 'Excelente ambiente']"
+JFK,Veggie Delight,Mexicana,600-900,1.9,"['Excelente ambiente', 'Buen servicio']"
+JFK,Sushi World,Japonesa,100-200,2.9,"['Poco caro, pero son rápidos', 'No me gustó', 'Buen servicio']"
+PDX,Tacos Campeche,Japonesa,200-300,4.5,"['Excelente ambiente', 'Buen servicio', 'Delicioso']"
+LAX,Pasta Paradise,Vegetariana,200-300,1.3,['No me gustó']
+PDX,Veggie Delight,Vegetariana,300-600,2.9,"['Delicioso', 'Recomendable', 'Excelente ambiente']"
+JFK,Tacos Campeche,Japonesa,300-600,1.7,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'No me gustó']"
+PDX,Sushi World,Mexicana,600-900,4.3,"['Delicioso', 'Excelente ambiente']"
+GDL,Sushi World,Italiana,300-600,4.0,"['Buen servicio', 'Recomendable']"
+SJC,Burger House,Americana,300-600,3.4,"['Poco caro, pero son rápidos', 'No me gustó']"
+PDX,Burger House,Japonesa,100-200,2.4,['Excelente ambiente']
+SJC,Tacos Campeche,Mexicana,100-200,3.0,['Delicioso']
+SJC,Sushi World,Japonesa,100-200,2.6,"['Buen servicio', 'Buen servicio']"
+JFK,Sushi World,Italiana,200-300,2.3,"['Poco caro, pero son rápidos', 'Buen servicio']"
+PDX,Tacos Campeche,Italiana,300-600,2.4,['Excelente ambiente']
+GDL,Burger House,Mexicana,600-900,3.1,['Recomendable']
+GDL,Veggie Delight,Mexicana,200-300,2.3,"['No me gustó', 'Delicioso', 'Buen servicio']"
+SJC,Tacos Campeche,Mexicana,600-900,4.9,['Buen servicio']
+JFK,Burger House,Americana,600-900,2.4,['Buen servicio']
+GDL,Pasta Paradise,Italiana,200-300,1.7,"['Poco caro, pero son rápidos', 'Excelente ambiente', 'Delicioso']"
+SJC,Pasta Paradise,Vegetariana,100-200,4.9,"['Buen servicio', 'Buen servicio']"
+LAX,Veggie Delight,Mexicana,200-300,2.2,['Buen servicio']
+LAX,Burger House,Italiana,200-300,2.3,"['Recomendable', 'Poco caro, pero son rápidos', 'Delicioso']"
+GDL,Burger House,Japonesa,300-600,3.3,"['No me gustó', 'Excelente ambiente']"
+LAX,Pasta Paradise,Americana,100-200,1.9,['Delicioso']
+GDL,Sushi World,Mexicana,300-600,2.7,"['No me gustó', 'Delicioso', 'Delicioso']"
+PDX,Pasta Paradise,Americana,300-600,1.7,['No me gustó']
+GDL,Veggie Delight,Japonesa,100-200,3.4,"['Excelente ambiente', 'Delicioso']"
+SJC,Sushi World,Vegetariana,300-600,2.3,"['Excelente ambiente', 'No me gustó', 'Excelente ambiente']"
+JFK,Pasta Paradise,Italiana,600-900,3.7,"['Excelente ambiente', 'Delicioso']"
+PDX,Sushi World,Italiana,300-600,4.1,"['Excelente ambiente', 'Recomendable']"
+JFK,Burger House,Japonesa,200-300,3.0,"['Poco caro, pero son rápidos', 'Buen servicio']"
+GDL,Sushi World,Mexicana,300-600,4.5,"['Poco caro, pero son rápidos']"
+PDX,Pasta Paradise,Japonesa,200-300,4.8,"['Delicioso', 'Buen servicio']"
+LAX,Burger House,Mexicana,300-600,2.1,['No me gustó']
+JFK,Sushi World,Americana,100-200,1.6,"['Recomendable', 'Recomendable', 'Buen servicio']"
+PDX,Pasta Paradise,Americana,300-600,4.9,"['Excelente ambiente', 'Recomendable']"
+LAX,Burger House,Italiana,300-600,4.5,"['No me gustó', 'Delicioso', 'Buen servicio']"
+PDX,Veggie Delight,Vegetariana,200-300,2.3,['Buen servicio']
+JFK,Tacos Campeche,Japonesa,600-900,3.0,"['Poco caro, pero son rápidos', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+SJC,Pasta Paradise,Japonesa,200-300,2.4,"['Excelente ambiente', 'Delicioso']"
+SJC,Pasta Paradise,Japonesa,300-600,2.5,"['No me gustó', 'No me gustó', 'Poco caro, pero son rápidos']"
+PDX,Tacos Campeche,Vegetariana,600-900,4.5,"['Excelente ambiente', 'Buen servicio', 'No me gustó']"
+JFK,Tacos Campeche,Japonesa,200-300,2.2,"['Recomendable', 'Poco caro, pero son rápidos']"
+SJC,Burger House,Italiana,100-200,1.1,['No me gustó']
+PDX,Pasta Paradise,Vegetariana,100-200,2.2,"['Excelente ambiente', 'Poco caro, pero son rápidos']"
+LAX,Tacos Campeche,Mexicana,600-900,4.8,['Excelente ambiente']
+GDL,Tacos Campeche,Japonesa,600-900,3.9,"['Recomendable', 'Poco caro, pero son rápidos']"
+LAX,Burger House,Mexicana,100-200,1.1,"['Buen servicio', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+SJC,Burger House,Vegetariana,200-300,4.2,"['Poco caro, pero son rápidos', 'Recomendable']"
+LAX,Veggie Delight,Mexicana,600-900,4.8,"['Poco caro, pero son rápidos']"
+JFK,Veggie Delight,Italiana,100-200,3.7,"['Delicioso', 'Poco caro, pero son rápidos', 'Poco caro, pero son rápidos']"
+GDL,Tacos Campeche,Mexicana,200-300,3.6,['Delicioso']
+JFK,Veggie Delight,Italiana,100-200,4.7,"['Recomendable', 'Buen servicio']"
