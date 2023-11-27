@@ -29,6 +29,7 @@ def cql_stmt_generator(accounts_num=5000, positions_by_account=100, trades_by_ac
     passangers_stmt = "INSERT INTO PASSANGERS(airline, age, reason, transit, wait) VALUES ('{}', {}, '{}', '{}', {});"
     airports_stmt = "INSERT INTO AIRPORTS(airline, location, transit, start_date, connection) VALUES ('{}', '{}', '{}', '{}', {});"
     passangers_by_reason_stmt = "INSERT INTO PASSANGERS_BY_REASON(airline, age, reason, transit, wait) VALUES ('{}', {}, '{}', '{}', {});"
+    passangers_by_transit_stmt = "INSERT INTO PASSANGERS_BY_TRANSIT(airline, location, transit, start_date, connection) VALUES ('{}', '{}', '{}', '{}', {});"
 
     with open(CQL_FILE, "w") as fd:
         for i in range(accounts_num):
@@ -47,10 +48,6 @@ def cql_stmt_generator(accounts_num=5000, positions_by_account=100, trades_by_ac
             airline = choice(airlines)
             gender = choice(genders)
             age = randint(1,90)
-            if not connection:
-                wait = 0
-            else:
-                transit = ""
             if reason == "Back Home":
                 stay = "Home"
                 connection = False
@@ -61,8 +58,9 @@ def cql_stmt_generator(accounts_num=5000, positions_by_account=100, trades_by_ac
             fd.write('\n')
             fd.write(passangers_by_reason_stmt.format(airline, age, reason, transit, wait))
             fd.write('\n')
+            fd.write(passangers_by_transit_stmt.format(airline, from_airport, transit, date_object, connection))
+            fd.write('\n')
             
-
 
 def main():
     cql_stmt_generator()
