@@ -11,13 +11,14 @@ CREATE_KEYSPACE = """
 """
 
 CREATE_PASSANGERS_TABLE = """
-    CREATE TABLE IF NOT EXISTS PASSANGERS (
+    CREATE TABLE IF NOT EXISTS passangers (
+        airline TEXT,
         age INT,
         reason TEXT,
         transit TEXT,
-        wait INT ,
-        PRIMARY KEY ((age))
-    )
+        wait INT,
+        PRIMARY KEY (airline, age)
+    ) WITH CLUSTERING ORDER BY (age ASC);
 """
 
 CREATE_AIRPORTS_TABLE = """
@@ -25,11 +26,32 @@ CREATE_AIRPORTS_TABLE = """
         airline TEXT,
         location TEXT,
         transit TEXT,
-        start_date DATE,
+        start_date timestamp,
         connection BOOLEAN,
         PRIMARY KEY ((airline))
     )
 """
+
+CREATE_PASSANGERS_TABLE_BY_REASON = """
+    CREATE TABLE IF NOT EXISTS passangers_by_reason (
+        airline TEXT,
+        age INT,
+        reason TEXT,
+        transit TEXT,
+        wait INT,
+        PRIMARY KEY (reason, airline)
+    ) WITH CLUSTERING ORDER BY (airline ASC);
+
+"""
+
+SELECT_PASSANGERS_OLDER_THAN = """
+    SELECT airline FROM PASSANGERS WHERE age > ?;
+"""
+#TODO: ORDER BY NUMBER OF PASSANGERS
+SELECT_PASSANGERS_BY_REASON = """
+    SELECT airline, reason FROM PASSANGERS_BY_REASON WHERE reason = ?;
+"""
+
 
 def create_keyspace(session, keyspace, replication_factor):
     log.info(f"Creating keyspace: {keyspace} with replication factor {replication_factor}")
@@ -40,12 +62,19 @@ def create_schema(session):
     log.info("Creating model schema")
     session.execute(CREATE_PASSANGERS_TABLE)
     session.execute(CREATE_AIRPORTS_TABLE)
+    session.execute(CREATE_PASSANGERS_TABLE_BY_REASON)
 
 
-def get_user_accounts(session, username):
-    log.info(f"Retrieving {username} accounts")
-    stmt = session.prepare(SELECT_USER_ACCOUNTS)
-    rows = session.execute(stmt, [username])
+def get_passangers_older_than(session, age):
+    log.info(f"Getting passangers older than {age}")
+    stmt = session.prepare(SELECT_PASSANGERS_OLDER_THAN)
+    session.execute(stmt, {age})
+
+def get_passangers_by_reason(session, reason):
+    log.info(f"Getting passangers by reason {reason}")
+    stmt = session.prepare(SELECT_PASSANGERS_BY_REASON)
+    rows = session.execute(stmt, {reason})
+    print(f"Airline\t\t\tReason")
     for row in rows:
-        print(f"=== Account: {row.account_number} ===")
-        print(f"- Cash Balance: {row.cash_balance}")
+        print(f"{row.airline}\t{row.reason}")
+
