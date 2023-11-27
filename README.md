@@ -58,14 +58,6 @@ Para la implementación de este proyecto se hará uso de los motores de **Cassan
     docker run --name mongodbModelo2 -d -p 27017:27017 mongo
   ```
 # If container already exists just start it
-  ```
-    docker start mongodbModelo2
-  ```
-# Once your API service is running (see step above), run the populate script
-  ```
-    cd "/home/guillermoclinux/bdnr-equipo-8-public/MongoDB Model 2"
-    python3 populate.py
-  ```
 
 ### Iniciar una instancia en docker
 
