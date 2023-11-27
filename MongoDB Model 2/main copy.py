@@ -4,7 +4,7 @@ import os
 from fastapi import FastAPI
 from pymongo import MongoClient
 
-from routes import router as api_router
+from routes import router as alimentos_bebidas_router
 
 MONGODB_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
 DB_NAME = os.getenv('MONGODB_DB_NAME', 'iteso')
@@ -22,4 +22,4 @@ def shutdown_db_client():
     app.mongodb_client.close()
     print("Bye bye...!!")
 
-app.include_router(api_router, tags=["flight_passenger"],prefix="/flight_passenger")
+app.include_router(alimentos_bebidas_router, tags=["Aeropuertos Recomendados Servicios de Alimentos"], prefix="/recomendacion_restaurantes")

@@ -14,37 +14,83 @@ Los modelos a implementar son:
 3. Modelo de selección de promociones para rutas poco transitada
 4. Modelo de recolección de datos para industria hotelera.
 
+### Setup a python virtual env with python dgraph installed
+```
+# If pip is not present in you system
+sudo apt update
+sudo apt install python3-pip
+
+# Install and activate virtual env
+python3 -m pip install virtualenv
+python3 -m venv ./venv
+source ./venv/bin/activate
+
+# Install project python requirements
+python3 -m pip install -r "/home/guillermoclinux/iteso-bdnr-pruebas/requirements.txt"
+```
+
 ## Herramientas a utilizar
 
 Para la implementación de este proyecto se hará uso de los motores de **Cassandra**, **MongoDB** y **DGraph**. Las instrucciones para ejecutar este proyecto se encuentran a continuación.
 
 ### Iniciar una instancia en docker
+  1. **Cassandra Modelo 1**
+  # To start a new container
+  ``` 
+    docker run --name car_rental -p 9042:9042 -d cassandra
+  ```
+# If container already exists just start it
+  ```
+    docker start node01
+  ```
 
-  1. **Cassandra**
+### Iniciar una instancia en docker
+2. **MongoDB Modelo 2**
+  ```
+    cd "/home/guillermoclinux/bdnr-equipo-8/MongoDB Model 2"
+  ```
+# To run the API service
+  ```
+    python3 -m uvicorn main:app --reload
   ```
 # To start a new container
-docker run --name car_rental -p 9042:9042 -d cassandra
-
+  ```
+    docker run --name mongodbModelo2 -d -p 27017:27017 mongo
+  ```
 # If container already exists just start it
-docker start node01
 
-# To copy data
-docker cp data.cql car_rental:/root/data.cql
-```
-  2. **MongoDB**
-```
-# To start a new container
-docker run --name mongodb -d -p 27017:27017 mongo
+### Iniciar una instancia en docker
 
-# If container already exists just start it
-docker start mongodb
-```
-  3. **DGraph**
-```
+  3. **Cassandra Modelo 3**
+  # To start a new container
+  ```
+    docker run --name node03 -p 9042:9042 -d cassandra
+  ```
+
+  # If container already exists just start it
+  ```
+    docker start node03
+  ```
+  # Copy data to container
+  ```
+    docker cp /home/guillermoclinux/bdnr-equipo-8/Cassandra\ Model\ 2/datos_pasajero_vuelo.cql node03:/root/
+    docker cp /home/guillermoclinux/bdnr-equipo-8/Cassandra\ Model\ 2/rutas_menos_transitadas.cql node03:/root/
+    docker exec -it node03 bash -c "cqlsh -u cassandra -p cassandra"
+    # In cqlsh:
+    USE promociones_vuelos;
+    SOURCE '/root/datos_pasajero_vuelo.cql'
+    SOURCE '/root/rutas_menos_transitadas.cql'
+    exit
+  ```
+
+
+4. **DGraph Modelo 4**
 # To start a new container (dgraph)
-docker run --name dgraph -d -p 8080:8080 -p 9080:9080  dgraph/standalone:latest
-
+```
+  docker run --name dgraph -d -p 8080:8080 -p 9080:9080  dgraph/standalone:latest
+```
 # To start a new container (ratel)
-docker run --name ratel -d -p 8000:8000 dgraph/ratel:latest
+```
+  docker run --name ratel -d -p 8000:8000 dgraph/ratel:latest
 ```
 
