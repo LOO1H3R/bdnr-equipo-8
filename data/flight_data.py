@@ -78,7 +78,7 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--output",
             help="Specify the output filename of your csv, defaults to: flight_passengers.csv", default="flight_passengers.csv")
     parser.add_argument("-r", "--rows",
-            help="Amount of random generated entries for the dataset, defaults to: 100", type=int, default=100)
+            help="Amount of random generated entries for the dataset, defaults to: 5000", type=int, default=5000)
 
     args = parser.parse_args()
     

@@ -49,8 +49,6 @@ def generar_commando_insert_cql_datos_filtrados(csv_file, cql_file, max_pasajero
 
 
 if __name__ == '__main__':
-    csv_path = "/home/guillermoclinux/bdnr-equipo-8/flight_passengers.csv"
+    csv_path = "/home/guillermoclinux/bdnr-equipo-8-public/data/flight_passengers.csv"
     cql_path = "/home/guillermoclinux/bdnr-equipo-8/Cassandra Model 3/datos_pasajero_vuelo.cql"
-    cql_path1 = "/home/guillermoclinux/bdnr-equipo-8/Cassandra Model 3/rutas_menos_transitadas.cql"
     generar_commando_insert_cql_datos_completos(csv_path, cql_path)
-    generar_commando_insert_cql_datos_filtrados(csv_path, cql_path1, 45)
