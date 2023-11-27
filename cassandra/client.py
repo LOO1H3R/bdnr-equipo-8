@@ -40,8 +40,6 @@ def print_trade_history_menu():
         2: 'show all passangers which flight reason is "Business/Work"',
         3: 'show all passangers which flight reason is "On vacation/Pleasure"',
         4: 'show all airports which transits are "Car rental"',
-        5: 'show all airports which wait is greater than 1 hour',
-        6: 'show all airports which have more reason "Business/Work"',
         7: 'exit'
     }
     for key in thm_options.keys():
@@ -82,10 +80,6 @@ def main():
             model.get_passangers_by_reason(session, 'On vacation/Pleasure')
         elif option == 4:
             model.get_airports_by_transit(session, 'Car rental')
-        elif option == 5:
-            model.get_airports_by_wait(session, 60)
-        elif option == 6:
-            model.get_passangers_by_reason(session, 'Business/Work')
         elif option == 7:
             exit(0)
 
