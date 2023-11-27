@@ -27,6 +27,9 @@ docker run --name car_rental -p 9042:9042 -d cassandra
 
 # If container already exists just start it
 docker start node01
+
+# To copy data
+docker cp data.cql car_rental:/root/data.cql
 ```
   2. **MongoDB**
 ```
