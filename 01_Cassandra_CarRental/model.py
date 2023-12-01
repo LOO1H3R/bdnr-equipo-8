@@ -28,7 +28,7 @@ CREATE_AIRPORTS_TABLE = """
         transit TEXT,
         start_date timestamp,
         connection BOOLEAN,
-        PRIMARY KEY ((airline))
+        PRIMARY KEY ((transit))
     )
 """
 
@@ -62,15 +62,15 @@ SELECT airline, age FROM passangers WHERE age > ? ALLOW FILTERING;
 """
 
 SELECT_PASSANGERS_BY_REASON = """
-SELECT airline, reason, COUNT(*) as passenger_count FROM passangers WHERE reason = ? GROUP BY airline ALLOW FILTERING;
+SELECT airline, reason, COUNT(*) as passenger_count FROM PASSANGERS_BY_REASON WHERE reason = ?;
 """
 
 SELECT_AIRPORTS_BY_TRANSIT = """
-SELECT airline, transit, COUNT(*) as passenger_count FROM airports WHERE transit = ? GROUP BY airline ALLOW FILTERING;
+SELECT airline, transit FROM airports WHERE transit = ?;
 """
 
 SELECT_AIRPORTS_BY_WAIT = """
-SELECT airline, wait, COUNT(*) as passenger_count FROM airports WHERE wait > ? GROUP BY airline ALLOW FILTERING;
+SELECT airline, wait FROM airports WHERE wait > ? ;
 """
 
 def create_keyspace(session, keyspace, replication_factor):
